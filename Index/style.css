@@ -1,0 +1,51 @@
+* {
+    font-family: "JetBrains Mono";
+    margin:0;
+    padding:0;
+}
+
+body {
+    background: linear-gradient(105deg, #140040 42.99%, #000 91.3%);
+}
+
+.main-logo {
+    width: 20%;
+    height: auto;
+    flex-shrink: 0;
+    margin-left: 40%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+.main-title {
+    color: #FFF;
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2cm;
+
+    margin-left: 33%;
+    margin-bottom: 1%;
+}
+
+.sub-heading{
+
+    text-align: center;
+    font-family: JetBrains Mono;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1cm;
+    margin-bottom:5%;
+
+    background: linear-gradient(180deg, #FFBB02 0%, rgba(225, 173, 33, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.arrow {
+    margin-left: 48%;
+}
