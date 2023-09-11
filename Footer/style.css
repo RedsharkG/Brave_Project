@@ -1,0 +1,50 @@
+/* Adding mostly use Font-family to the web page */
+@font-face {
+    font-family: mainFont;
+    src: url(../Fonts/JetBrainsMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: mainFontBold;
+    src: url("../Fonts/JetBrainsMono-Bold.ttf");
+}
+
+* {
+    font-family: "mainFont";
+
+}
+
+footer {
+    background-color: #000;
+}
+
+.first-Col {
+    color: #fff;
+    margin-left:2%;
+    padding: 0.5%;
+    display:inline-block;
+}
+
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:active {
+    font-weight: bold;
+}
+
+a:visited {
+    color: #ffffff;
+    text-decoration:none;
+}
+
+a:hover {
+    color: orangered;
+}
+
+.sec-Col {
+    color: #fff;
+    margin-left: 10%;
+    display:inline-block;
+}
