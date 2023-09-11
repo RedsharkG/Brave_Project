@@ -16,9 +16,19 @@
     font-family: mainFont;
 }
 
+
 .topic{
-    font-size: 100px;
+    font-size: 40px;
     font-weight: bolder;
+    background: rgba(119, 119, 119, 0.17);
+    display: inline-block;
+
+}
+.topic1{
+    margin: 0 50px;
+}
+.topic2{
+    margin: 0 100px;
 }
 
 .logo{
