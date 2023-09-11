@@ -1,5 +1,17 @@
+@font-face {
+    font-family: mainFont;
+    src: url("../Fonts/JetBrainsMono-Regular.ttf");
+}
+
+@font-face {
+    font-family: mainFontBold;
+    src: url("../Fonts/JetBrainsMono-Bold.ttf");
+}
+
+
+
 * {
-    font-family: "JetBrains Mono";
+    font-family: "mainFont";
     margin:0;
     padding:0;
 }
