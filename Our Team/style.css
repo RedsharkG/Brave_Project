@@ -1,6 +1,11 @@
 @font-face {
-    font-family: "JetBrainsMono-Bold";
-    src: url("Brave_Project/ttf/JetBrainsMono-Bold.ttf");
+    font-family: mainFont;
+    src: url(../Fonts/JetBrainsMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: mainFontBold;
+    src: url("../Fonts/JetBrainsMono-Bold.ttf");
 }
 
 *{
@@ -8,13 +13,12 @@
     padding: 0;
     text-transform: uppercase;
     color:#fff;
+    font-family: mainFont;
 }
 
 .topic{
     font-size: 100px;
     font-weight: bolder;
-    font-family: "JetBrainsMono-Bold";
-
 }
 
 .logo{
@@ -32,7 +36,7 @@ p{
     color: #FFF;
     font-size: 15px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 20px;
     line-height:0.7cm;
 }
