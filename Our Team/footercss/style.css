@@ -1,12 +1,12 @@
 /* Adding mostly use Font-family to the web page */
 @font-face {
     font-family: mainFont;
-    src: url(../../Fonts/JetBrainsMono-Regular.ttf);
+    src: url(../../Nudista/nudista.otf);
 }
 
 @font-face {
     font-family: mainFontBold;
-    src: url("../../Fonts/JetBrainsMono-Bold.ttf");
+    src: url("../../Nudista/nudista-bold.otf");
 }
 
 * {
