@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <title>OUR TEAM</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="footercss/style.css" />
@@ -10,7 +11,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
+
 <body >
+<<<<<<< Updated upstream
 <div class="header">
     <div class="btopic">
         <p class="topic">our team</p>
@@ -27,41 +30,55 @@
     <tr class="row1">
         <td>   shehara <br>gishan<br>
             <img src="Images/user.jpg" class="profile"></td>
+=======
+<div>
+    <h1 class="topic1">our&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; team</h1>
+    <img src="Images/logo.png" class="logo" alt="logo">
+    <p>ALL OF THE MEMBERS OF OUR TEAM ARE UNDER                 GRADUATES OF THE NSBM GREEN UNIVERSITY AND WE HAVE CRETED THIS WEB SI              TE FOR OUR WEB DEVELOPING FINAL GROUP PROJECT. SPECIAL THANKS FOR THE OUR LECTURER         AND THANKS FOR THE ALL OF THE GROUP MEMBERS IN OUR GROUP. WE ARE PROVIDING YOU THE BEST QUALITY T-SHIRT FROM OUR BRAVE STORE. THANK YOU!</p>
+
+</div>
+
+
+<table class="container">
+    <tr class="row1">
+        <td>sehara <br>gishan<br>
+            <img src="Images/user.jpg" class="profile" alt="shehara"></td>
+>>>>>>> Stashed changes
         <td>udaya <br>sandaruwan<br>
-            <img src="Images/user.jpg" class="profile"></td>
+            <img src="Images/user.jpg" class="profile" alt="udaya"></td>
         <td>    thenuri <br>gamage<br>
-            <img src="Images/user.jpg" class="profile">
+            <img src="Images/user.jpg" class="profile" alt="thenuri">
         </td>
     </tr>
 
     <tr class="row2">
         <td>    lasan <br>sanjula<br>
-            <img src="Images/user.jpg" class="profile">
+            <img src="Images/user.jpg" class="profile" alt="lasan">
         </td>
         <td>    yuhas <br>himsanda<br>
-            <img src="Images/user.jpg" class="profile">
+            <img src="Images/user.jpg" class="profile" alt="yuhas">
         </td>
         <td>    thirani <br>ihara<br>
-            <img src="Images/user.jpg" class="profile">
+            <img src="Images/user.jpg" class="profile" alt="thirani">
         </td>
     </tr>
 
     <tr class="row3">
         <td>danithe <br>subasinghe<br>
-            <img src="Images/user.jpg" class="profile"></td>
+            <img src="Images/user.jpg" class="profile" alt="danithe"></td>
 
         <td>piyumaka<br>wijeyaratne<br>
-            <img src="Images/user.jpg" class="profile">
+            <img src="Images/user.jpg" class="profile" alt="piyumaka">
         </td>
         <td>yohani<br>hansika<br>
-            <img src="Images/user.jpg" class="profile">
+            <img src="Images/user.jpg" class="profile" alt="yohani">
         </td>
     </tr>
 
     <tr class="row4">
 
         <td colspan="3">nuran <br>hirusha<br>
-            <img src="Images/user.jpg" class="profile">
+            <img src="Images/user.jpg" class="profile" alt="nuran">
 
         </td>
     </tr>
@@ -73,6 +90,7 @@
 
 
 </body>
+<<<<<<< Updated upstream
 
 <footer>
 
@@ -133,4 +151,6 @@
     <hr class = "left-line" />
     <p class = "copyright"> Copyrights &copy; Group 40</p>
 </footer>
+=======
+>>>>>>> Stashed changes
 </html>
