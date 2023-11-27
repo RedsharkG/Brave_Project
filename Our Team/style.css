@@ -17,6 +17,7 @@
 }
 
 
+<<<<<<< Updated upstream
 .btopic{
     background: rgba(119, 119, 119, 0.17);
     height: 120px;
@@ -47,18 +48,38 @@
 
 .header{
     position: relative;
+=======
+h1{
+    background: rgba(119, 119, 119, 0.17);
 }
 
+.topic1{
+    font-size: 100px;
+    font-weight: bolder;
+    margin-left: 240px;
+>>>>>>> Stashed changes
+}
+
+
 .logo{
+<<<<<<< Updated upstream
     width: 200px;
     height: 260px;
     position: absolute;
     top: 3%;
     left: 46%;
+=======
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+>>>>>>> Stashed changes
 }
 
 body {
     background: linear-gradient(180deg, #140040 0%, rgba(0, 0, 0, 100) 100%);
+    position: relative;
 }
 
 
