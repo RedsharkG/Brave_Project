@@ -1,0 +1,147 @@
+/* Adding mostly use Font-family to the web page */
+@font-face {
+    font-family: mainFont;
+    src: url(../Nudista/nudista.otf);
+}
+
+@font-face {
+    font-family: mainFontBold;
+    src: url("../Nudista/nudista-bold.otf");
+}
+
+* {
+    font-family: "mainFont";
+
+}
+
+footer {
+    background-color: #000;
+}
+
+.first-Col {
+    color: #fff;
+    margin-left:2%;
+    margin-top:2%;
+    padding: 0.5%;
+    display:inline-block;
+    line-height:1cm;
+}
+
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:active {
+    font-weight: bold;
+}
+
+a:visited {
+    color: #ffffff;
+    text-decoration:none;
+}
+
+a:hover {
+    color: orangered;
+}
+
+.sec-Col {
+    color: #fff;
+    margin-left: 10%;
+    display:inline-block;
+    line-height: 1cm;
+}
+
+.branch-info {
+    display: inline-block;
+    width: 20%;
+    color: #fff;
+    margin-left: 11%;
+    margin-top: 0%;
+    background-color: rgba(217, 217, 217, 0.1);
+    padding-left:1%;
+    padding-right:1%;
+    position: relative;
+    line-height: 1cm;
+}
+
+/* Social media icons */
+
+.social-icons{
+    padding:30px;
+    background-color:#000;
+    text-align: center;
+}
+.social-icons a{
+    color:#fff;
+    line-height:30px;
+    font-size:30px;
+    margin: 0 5px;
+    text-decoration:none;
+
+}
+.social-icons a i{
+    line-height:30px;
+    font-size:30px;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+.social-icons a:hover i{
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+
+.location {
+    width: 30%;
+    margin:0;
+    padding:2%;
+    display: inline-block;
+    float:left;
+    margin-left: 66%;
+    margin-top: -20%;
+
+
+}
+
+.fb:hover {
+    color: #1F4CEA;
+}
+
+.tweet:hover {
+    color: #00b6fd;
+}
+
+.instagram:hover {
+    color: orangered;
+}
+
+.youtube:hover {
+    color: rgb(246,0,6);
+}
+
+.copyright {
+    color: #fff;
+    margin-left: 45%;
+    padding-bottom: 1%;
+}
+
+.left-line {
+    width: 100%;
+    height: auto;
+    color: #fff;
+    margin-bottom: 1%;
+}
