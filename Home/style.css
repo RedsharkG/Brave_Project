@@ -65,6 +65,7 @@ header {
 .nav-buttons {
     margin-top: -6%;
     margin-left: 60%;
+    font-weight: bold;
 }
 
 .Login {

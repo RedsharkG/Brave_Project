@@ -79,10 +79,10 @@
     <!--    Above lines of codes for the first column in the footer -->
     <div class = "first-Col">
 
-        <p><a href="../Home/index.html" class="Home"> Home </a></p>
+        <p><a href="../Home/index.php" class="Home"> Home </a></p>
         <p> <a href="../Store/index.html" class="Store"> Store </a> </p>
-        <p><a href="../Contact Us/index.html" class="Contact-Us"> Contact Us </a></p>
-        <p> <a href="../Login/index.html" class="Login"> Login</a> </p>
+        <p><a href="../Contact%20Us/index.php" class="Contact-Us"> Contact Us </a></p>
+        <p> <a href="../Login/index.php" class="Login"> Login</a> </p>
         <p> <a href="../Register/index.html" class="Register"> Register </a></p>
         <p> <a href="../Returns and Exchanges/index.html" class="RAE"> Returns and Exchanges </a></p>
 
@@ -90,10 +90,10 @@
 
     <div class = "sec-Col">
 
-        <p><a href="../Home/index.html" class="Sale"> Sale </a></p>
+        <p><a href="../Home/index.php" class="Sale"> Sale </a></p>
         <p> <a href="../Store/index.html" class="Help"> Help </a> </p>
-        <p><a href="../Our Team/index.html" class="Our Team"> Our Team </a></p>
-        <p> <a href="../Login/index.html" class="Branches"> Branches </a> </p>
+        <p><a href="index.php" class="Our Team"> Our Team </a></p>
+        <p> <a href="../Login/index.php" class="Branches"> Branches </a> </p>
         <p> <a href="../Register/index.html" class="Profile"> Profile </a></p>
         <p> <a href="../Returns and Exchanges/index.html" class="Size-chart"> Size Chart </a></p>
 

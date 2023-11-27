@@ -1,3 +1,9 @@
+<?php
+
+
+?>
+
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -15,7 +21,6 @@
 <body>
 <header>
 <div class="navigation">
-
     <img src="Images/Logo%20with%20Name.png" alt="Brave logo with name" class = "title-logo"/>
     <input type = "text" placeholder="Search" class = "search">
 
@@ -24,7 +29,6 @@
     <a class = "Store" href="#"> Store </a>
     <a class = "Contact" href="#"> Contact Us </a>
     <a class="Login" href="#"> Login </a>
-
     </div>
 </div>
 </header>
@@ -72,10 +76,10 @@
     <!--    Above lines of codes for the first column in the footer -->
     <div class = "first-Col">
 
-        <p><a href="../Home/index.html" class="Home-f"> Home </a></p>
+        <p><a href="index.php" class="Home-f"> Home </a></p>
         <p> <a href="../Store/index.html" class="Store-f"> Store </a> </p>
-        <p><a href="../Contact Us/index.html" class="Contact-Us-f"> Contact Us </a></p>
-        <p> <a href="../Login/index.html" class="Login-f"> Login</a> </p>
+        <p><a href="../Contact%20Us/index.php" class="Contact-Us-f"> Contact Us </a></p>
+        <p> <a href="../Login/index.php" class="Login-f"> Login</a> </p>
         <p> <a href="../Register/index.html" class="Register-f"> Register </a></p>
         <p> <a href="../Returns and Exchanges/index.html" class="RAE"> Returns and Exchanges </a></p>
 
@@ -83,10 +87,10 @@
 
     <div class = "sec-Col">
 
-        <p><a href="../Home/index.html" class="Sale"> Sale </a></p>
+        <p><a href="index.php" class="Sale"> Sale </a></p>
         <p> <a href="../Store/index.html" class="Help"> Help </a> </p>
-        <p><a href="../Our Team/index.html" class="Our Team"> Our Team </a></p>
-        <p> <a href="../Login/index.html" class="Branches"> Branches </a> </p>
+        <p><a href="../Our%20Team/index.php" class="Our Team"> Our Team </a></p>
+        <p> <a href="../Login/index.php" class="Branches"> Branches </a> </p>
         <p> <a href="../Register/index.html" class="Profile"> Profile </a></p>
         <p> <a href="../Returns and Exchanges/index.html" class="Size-chart"> Size Chart </a></p>
 
