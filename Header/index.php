@@ -17,11 +17,11 @@
 <div class = "container">
 
     <img src="../Logo%20with%20Name.png" alt="logo with name" class="logo-img"/>
-
+<div class="search-div">
     <form method = "post">
         <input type = "text" placeholder="Search" name="search" class="search-box" />
     </form>
-
+</div>
     <div class="nav-titles" >
 
         <a class="Home" href = "#"> Home </a>
@@ -30,18 +30,6 @@
         <a class="Login" href="#"> Login </a>
 
     </div>
-
-
-
-
-
-
-
 </div>
-
-
-
-
-
 </body>
 </html>

@@ -8,8 +8,12 @@
     <!-- Bootstrap -->
 	<link href="../test2web/css/bootstrap-4.4.1.css" rel="stylesheet">
 	<link href="style.css" rel="stylesheet" type="text/css">
+    <link href="../Header/style.css" rel="stylesheet" />
 </head>
   <body>
+  <header>
+      <?php include '../Header/index.php'; ?>
+  </header>
 <div class="container-fluid">
   <table width="100%%">
     <tbody>
