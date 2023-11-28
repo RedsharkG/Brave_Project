@@ -12,7 +12,7 @@
 </head>
 <body >
 <header>
-    <?php include '../Header/index.php'; ?>
+     <?php include '../Header/index.php'; ?> 
 </header>
 <div class="header">
     <div class="btopic">
@@ -29,7 +29,7 @@
 <table class="container">
     <tr class="row1">
         <td>   shehara <br>gishan<br>
-            <img src="Images/user.jpg" class="profile"></td>
+            <img src="Images/shehara.JPG" class="profile"></td>
         <td>udaya <br>sandaruwan<br>
             <img src="Images/user.jpg" class="profile"></td>
         <td>    thenuri <br>gamage<br>
@@ -39,13 +39,13 @@
 
     <tr class="row2">
         <td>    lasan <br>sanjula<br>
-            <img src="Images/user.jpg" class="profile">
+            <img src="Images/lasan.jpg" class="profile">
         </td>
         <td>    yuhas <br>himsanda<br>
-            <img src="Images/user.jpg" class="profile">
+            <img src="Images/yuhas.jpg" class="profile">
         </td>
         <td>    thirani <br>ihara<br>
-            <img src="Images/user.jpg" class="profile">
+            <img src="Images/thirani.jpg" class="profile">
         </td>
     </tr>
 
@@ -54,7 +54,7 @@
             <img src="Images/user.jpg" class="profile"></td>
 
         <td>piyumaka<br>wijeyaratne<br>
-            <img src="Images/user.jpg" class="profile">
+            <img src="Images/piyumaka.jpg" class="profile">
         </td>
         <td>yohani<br>hansika<br>
             <img src="Images/user.jpg" class="profile">
@@ -64,7 +64,7 @@
     <tr class="row4">
 
         <td colspan="3">nuran <br>hirusha<br>
-            <img src="Images/user.jpg" class="profile">
+            <img src="Images/nuran.jpg" class="profile">
 
         </td>
     </tr>
