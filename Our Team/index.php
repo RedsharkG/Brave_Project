@@ -1,29 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <title>OUR TEAM</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="footercss/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="../Header/style.css" rel="stylesheet" />
+    <link href="../Header/style.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
-
 <body >
-
 <header>
-<?php include '../Header/index.php'; ?>
+    <?php include '../Header/index.php'; ?>
 </header>
-<<<<<<< Updated upstream
 <div class="header">
     <div class="btopic">
         <p class="topic">our team</p>
-<!--        <p class="topic2"></p>-->
+        <!--        <p class="topic2"></p>-->
     </div>
-            <img src="Images/logo.png" class="logo">
+    <img src="Images/logo.png" class="logo">
 
 </div>
 
@@ -34,55 +30,41 @@
     <tr class="row1">
         <td>   shehara <br>gishan<br>
             <img src="Images/user.jpg" class="profile"></td>
-=======
-<div>
-    <h1 class="topic1">our&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; team</h1>
-    <img src="Images/logo.png" class="logo" alt="logo">
-    <p>ALL OF THE MEMBERS OF OUR TEAM ARE UNDER                 GRADUATES OF THE NSBM GREEN UNIVERSITY AND WE HAVE CRETED THIS WEB SI              TE FOR OUR WEB DEVELOPING FINAL GROUP PROJECT. SPECIAL THANKS FOR THE OUR LECTURER         AND THANKS FOR THE ALL OF THE GROUP MEMBERS IN OUR GROUP. WE ARE PROVIDING YOU THE BEST QUALITY T-SHIRT FROM OUR BRAVE STORE. THANK YOU!</p>
-
-</div>
-
-
-<table class="container">
-    <tr class="row1">
-        <td>sehara <br>gishan<br>
-            <img src="Images/user.jpg" class="profile" alt="shehara"></td>
->>>>>>> Stashed changes
         <td>udaya <br>sandaruwan<br>
-            <img src="Images/user.jpg" class="profile" alt="udaya"></td>
+            <img src="Images/user.jpg" class="profile"></td>
         <td>    thenuri <br>gamage<br>
-            <img src="Images/user.jpg" class="profile" alt="thenuri">
+            <img src="Images/user.jpg" class="profile">
         </td>
     </tr>
 
     <tr class="row2">
         <td>    lasan <br>sanjula<br>
-            <img src="Images/user.jpg" class="profile" alt="lasan">
+            <img src="Images/user.jpg" class="profile">
         </td>
         <td>    yuhas <br>himsanda<br>
-            <img src="Images/user.jpg" class="profile" alt="yuhas">
+            <img src="Images/user.jpg" class="profile">
         </td>
         <td>    thirani <br>ihara<br>
-            <img src="Images/user.jpg" class="profile" alt="thirani">
+            <img src="Images/user.jpg" class="profile">
         </td>
     </tr>
 
     <tr class="row3">
         <td>danithe <br>subasinghe<br>
-            <img src="Images/user.jpg" class="profile" alt="danithe"></td>
+            <img src="Images/user.jpg" class="profile"></td>
 
         <td>piyumaka<br>wijeyaratne<br>
-            <img src="Images/user.jpg" class="profile" alt="piyumaka">
+            <img src="Images/user.jpg" class="profile">
         </td>
         <td>yohani<br>hansika<br>
-            <img src="Images/user.jpg" class="profile" alt="yohani">
+            <img src="Images/user.jpg" class="profile">
         </td>
     </tr>
 
     <tr class="row4">
 
         <td colspan="3">nuran <br>hirusha<br>
-            <img src="Images/user.jpg" class="profile" alt="nuran">
+            <img src="Images/user.jpg" class="profile">
 
         </td>
     </tr>
@@ -94,17 +76,16 @@
 
 
 </body>
-<<<<<<< Updated upstream
 
 <footer>
 
     <!--    Above lines of codes for the first column in the footer -->
     <div class = "first-Col">
 
-        <p><a href="../Home/index.php" class="Home"> Home </a></p>
+        <p><a href="../Home/index.html" class="Home"> Home </a></p>
         <p> <a href="../Store/index.html" class="Store"> Store </a> </p>
-        <p><a href="../Contact%20Us/index.php" class="Contact-Us"> Contact Us </a></p>
-        <p> <a href="../Login/index.php" class="Login"> Login</a> </p>
+        <p><a href="../Contact Us/index.html" class="Contact-Us"> Contact Us </a></p>
+        <p> <a href="../Login/index.html" class="Login"> Login</a> </p>
         <p> <a href="../Register/index.html" class="Register"> Register </a></p>
         <p> <a href="../Returns and Exchanges/index.html" class="RAE"> Returns and Exchanges </a></p>
 
@@ -112,10 +93,10 @@
 
     <div class = "sec-Col">
 
-        <p><a href="../Home/index.php" class="Sale"> Sale </a></p>
+        <p><a href="../Home/index.html" class="Sale"> Sale </a></p>
         <p> <a href="../Store/index.html" class="Help"> Help </a> </p>
-        <p><a href="index.php" class="Our Team"> Our Team </a></p>
-        <p> <a href="../Login/index.php" class="Branches"> Branches </a> </p>
+        <p><a href="../Our Team/index.html" class="Our Team"> Our Team </a></p>
+        <p> <a href="../Login/index.html" class="Branches"> Branches </a> </p>
         <p> <a href="../Register/index.html" class="Profile"> Profile </a></p>
         <p> <a href="../Returns and Exchanges/index.html" class="Size-chart"> Size Chart </a></p>
 
@@ -155,6 +136,4 @@
     <hr class = "left-line" />
     <p class = "copyright"> Copyrights &copy; Group 40</p>
 </footer>
-=======
->>>>>>> Stashed changes
 </html>
