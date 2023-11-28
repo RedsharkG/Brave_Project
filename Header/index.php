@@ -14,6 +14,30 @@
 </head>
 <body>
 
+<div class = "container">
+
+    <img src="../Logo%20with%20Name.png" alt="logo with name" class="logo-img"/>
+
+    <form method = "post">
+        <input type = "text" placeholder="Search" name="search" class="search-box" />
+    </form>
+
+    <div class="nav-titles" >
+
+        <a class="Home" href = "#"> Home </a>
+        <a class = "Store" href="#"> Store </a>
+        <a class = "Contact" href="#"> Contact Us </a>
+        <a class="Login" href="#"> Login </a>
+
+    </div>
+
+
+
+
+
+
+
+</div>
 
 
 

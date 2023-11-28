@@ -1,7 +1,7 @@
 /* Adding mostly use Font-family to the web page */
 @font-face {
     font-family: mainFont;
-    src: url(../Nudista/nudista.otf);
+    src: url("../Nudista/nudista.otf");
 }
 
 @font-face {
@@ -13,4 +13,62 @@
     font-family: mainFont;
     margin: 0;
     padding: 0;
+    color: #fff;
+}
+
+body {
+    background: linear-gradient(105deg, #140040 42.99%, #000 91.3%);
+
+}
+
+.container {
+    background-color: rgba(000,000,000, 0.6);
+    display: flex;
+    justify-content: center;
+    flex-basis: auto;
+    align-self: center;
+}
+
+a:link {
+    text-decoration: none;
+    color:#fff;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: orangered;
+    /*font-weight: bold;*/
+}
+
+a:active {
+    color: #fff;
+    /*font-weight: bold;*/
+}
+
+.nav-titles {
+    display: flex;
+    align-self: center;
+    font-size:1.3vw;
+    gap: 40px;
+}
+
+.logo-img {
+    width: 8%;
+    height: auto;
+
+}
+
+.search-box {
+/*    width: 170%;*/
+/*    height: 20%;*/
+/*    padding:0.5%;*/
+    border-radius:20px;
+    /*border: 0;*/
+    font-size: 1.6vw;
+    text-align: center;
 }
