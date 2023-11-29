@@ -27,7 +27,7 @@
     justify-content: center;
     flex-basis: auto;
     align-self: center;
-    gap: 30px;
+    gap: 66px;
 }
 
 a:link {
@@ -55,7 +55,7 @@ a:active {
     display: flex;
     align-self: center;
     font-size:1.3vw;
-    gap: 40px;
+    gap: 35px;
 }
 
 .logo-img {
