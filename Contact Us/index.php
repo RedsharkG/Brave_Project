@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+    <!-- Bootstrap -->
+	<link href="../test2web/css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" type="text/css">
+    <link href="../Header/style.css" rel="stylesheet" />
+</head>
+  <body>
+  <header>
+      <?php include '../Header/index.php'; ?>
+  </header>
+<div class="container-fluid">
+  <table width="100%%">
+    <tbody>
+      <tr>
+        <td width="6%" class="table-1">
+		  C<br>
+		  O<br>
+		  N<br>
+		  T<br>
+		  A<br>
+		  C<br>
+		  T</td>
+        <td width="6%" class="table-2">
+		  U<br>
+		  S</td>
+<td width="68%"><div class="table-3">
+          We are always willing to help you and our team will contact you with your problems in 24h. If you have any good or bad review please be kind enough to Contact us.<br>
+          Our Mobile No: 0771020304<br>
+          Our E-mail: brave.store@gmail.com<br><br>
+          Complain :</div>
+          <br>
+          
+          <div class="table-4">
+            <table width="100%%">
+              <form action="" method="post">
+                <tbody>
+                  <tr>
+                    <td class="table-5">Name :</td>
+                    <td><input type="text" autocomplete="off" ></td>
+                  </tr>
+                  <tr>
+                    <td class="table-5">E-MAil :</td>
+                    <td><input type="email"></td>
+                  </tr>
+                  <tr>
+                    <td class="table-5">Contact No :</td>
+                    <td ><input type="number"></td>
+                  </tr>
+                  <tr>
+                    <td class="table-5">Complain</td>
+                    <td ><input type="text" class="table-6" placeholder="*This is mandatory. 600 Characters Maximum"></td>
+                  </tr>
+                  <tr>
+                    <td class="table-5"><input type="reset" placeholder="Clear"></td>
+                    <td ><input type="submit" placeholder="Submit" class="table-7"></td>
+                  </tr>
+              </tbody></form>
+            </table>
+        </div></td>
+        <td width="20%"><img src="images/logo1-removebg-preview.png" alt="" width="120" height="120" class="img-fluid"/>          &nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+	  <footer>
+
+<!--    Above lines of codes for the first column in the footer -->
+    <div class = "first-Col">
+
+        <p><a href="../Home/index.php" class="Home"> Home </a></p>
+        <p> <a href="../Store/index.html" class="Store"> Store </a> </p>
+    <p><a href="index.php" class="Contact-Us"> Contact Us </a></p>
+        <p> <a href="../Login/index.php" class="Login"> Login</a> </p>
+    <p> <a href="../Register/index.html" class="Register"> Register </a></p>
+    <p> <a href="../Returns and Exchanges/index.html" class="RAE"> Returns and Exchanges </a></p>
+
+    </div>
+
+    <div class = "sec-Col">
+
+        <p><a href="../Home/index.php" class="Sale"> Sale </a></p>
+        <p> <a href="../Store/index.html" class="Help"> Help </a> </p>
+        <p><a href="../Our%20Team/index.php" class="Our Team"> Our Team </a></p>
+        <p> <a href="../Login/index.php" class="Branches"> Branches </a> </p>
+        <p> <a href="../Register/index.html" class="Profile"> Profile </a></p>
+        <p> <a href="../Returns and Exchanges/index.html" class="Size-chart"> Size Chart </a></p>
+
+    </div>
+
+    <div class = "branch-info">
+
+        <p> Main Branch - Colombo </p>
+        <a href = "#">brave.store@gmail.com </a>
+        <p></p>
+        <p> Contact No - +94 7710203034 </p>
+        <p> whatsapp - +94 7710203034 </p>
+        <p> Open at Working Days 8.00am - 9.00pm</p>
+    </div>
+
+<!-- Social Media Icons -->
+
+    <div class="social-icons">
+        <a href="#"  title="facebook">
+            <i class="fa fa-facebook-square fb" aria-hidden="true"></i>
+        </a>
+        <a href="#" title="twitter">
+            <i class="fa fa-twitter-square tweet" aria-hidden="true"></i>
+        </a>
+
+        <a href="#" title="instagram">
+
+            <i class="fa fa-instagram instagram" aria-hidden="true"></i>
+        </a>
+        <a href="#" title="youtube">
+            <i class="fa fa-youtube-square youtube" aria-hidden="true"></i>
+        </a>
+
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.575840369662!2d80.03899797604667!3d6.821329093176444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2523b05555555%3A0x546c34cd99f6f488!2sNSBM%20Green%20University!5e0!3m2!1sen!2slk!4v1694520905116!5m2!1sen!2slk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" class = "location"></iframe>
+<hr class = "left-line" />
+<p class = "copyright"> Copyrights &copy; Group 40</p>
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="../test2web/js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="../test2web/js/popper.min.js"></script> <script src="../test2web/js/bootstrap-4.4.1.js"></script>
+</body>
+</html>

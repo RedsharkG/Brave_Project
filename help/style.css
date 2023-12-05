@@ -1,0 +1,214 @@
+udaya
+body{
+    background: linear-gradient(90deg, #140040 13.46%, #000 89.19%);
+    
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+input{
+    font-family: nudista;
+    width: 380px;
+    font-size: 6;
+    border-radius: 100px;
+    background: #D9D9D9;
+    text-align: center;
+}
+h1{
+    font-family: Nudista;
+    color: white;
+    text-align: center;
+}
+h5{
+    font-family: nudista;
+    color: white;
+}
+.accordion {
+    background: linear-gradient(90deg, #140040 13.46%, #000 89.19%);
+    margin-bottom: 16px;
+    font-size: 50px;
+  }
+
+  .accordion-item {
+    background: linear-gradient(90deg, #140040 13.46%, #000 89.19%);
+    position: relative;
+    color:white;
+  }
+
+  .accordion-header {
+    background: linear-gradient(90deg, #140040 13.46%, #000 89.19%);
+    padding: 12px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .accordion-content {
+    display: none;
+    padding: 12px;
+  }
+
+  .accordion-button {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+  }
+ h5{
+    font-family: nudista;
+    color: #D9D9D9;
+ }
+ p{
+    font-family: nudista;
+
+ }
+table{
+    color: white;
+
+}
+
+@media (max-width: 768px){
+    
+body{
+    background: linear-gradient(90deg, #140040 13.46%, #000 89.19%);
+    
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+input{
+    font-family: nudista;
+    width: 380px;
+    font-size: 6;
+    border-radius: 100px;
+    background: #D9D9D9;
+    text-align: center;
+}
+h1{
+    font-family: Nudista;
+    color: white;
+    text-align: center;
+}
+h5{
+    font-family: nudista;
+    color: white;
+}
+.accordion {
+    background: linear-gradient(90deg, #140040 13.46%, #000 89.19%);
+    margin-bottom: 16px;
+    font-size:30px;
+  }
+
+  .accordion-item {
+    background: linear-gradient(90deg, #140040 13.46%, #000 89.19%);
+    position: relative;
+    color:white;
+  }
+
+  .accordion-header {
+    background: linear-gradient(90deg, #140040 13.46%, #000 89.19%);
+    padding: 12px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .accordion-content {
+    display: none;
+    padding: 12px;
+  }
+
+  .accordion-button {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+  }
+ h5{
+    font-family: nudista;
+    color: #D9D9D9;
+ }
+ p{
+    font-family: nudista;
+
+ }
+table{
+    color: white;
+
+}
+    
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+    body{
+        background: linear-gradient(90deg, #140040 13.46%, #000 89.19%);
+        
+    }
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    input{
+        font-family: nudista;
+        width: 380px;
+        font-size: 15;
+        border-radius: 100px;
+        background: #D9D9D9;
+        text-align: center;
+    }
+    h1{
+        font-family: Nudista;
+        color: white;
+        text-align: center;
+    }
+    h5{
+        font-family: nudista;
+        color: white;
+    }
+    .accordion {
+        background: linear-gradient(90deg, #140040 13.46%, #000 89.19%);
+        margin-bottom: 16px;
+        font-size: 50px;
+      }
+    
+      .accordion-item {
+        background: linear-gradient(90deg, #140040 13.46%, #000 89.19%);
+        position: relative;
+        color:white;
+      }
+    
+      .accordion-header {
+        background: linear-gradient(90deg, #140040 13.46%, #000 89.19%);
+        padding: 12px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+    
+      .accordion-content {
+        display: none;
+        padding: 12px;
+      }
+    
+      .accordion-button {
+        position: absolute;
+        top: 50%;
+        right: 12px;
+        transform: translateY(-50%);
+      }
+     h5{
+        font-family: nudista;
+        color: #D9D9D9;
+     }
+     p{
+        font-family: nudista;
+    
+     }
+    table{
+        color: white;
+}

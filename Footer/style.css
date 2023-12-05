@@ -24,6 +24,7 @@ footer {
     margin-top:2%;
     padding: 0.5%;
     display:inline-block;
+    line-height:1cm;
 }
 
 a:link {
@@ -48,6 +49,7 @@ a:hover {
     color: #fff;
     margin-left: 10%;
     display:inline-block;
+    line-height: 1cm;
 }
 
 .branch-info {
@@ -60,6 +62,7 @@ a:hover {
     padding-left:1%;
     padding-right:1%;
     position: relative;
+    line-height: 1cm;
 }
 
 /* Social media icons */
@@ -107,8 +110,9 @@ a:hover {
     margin:0;
     padding:2%;
     display: inline-block;
+    float:left;
     margin-left: 66%;
-    margin-top: -30%;
+    margin-top: -20%;
 
 
 }
@@ -139,4 +143,5 @@ a:hover {
     width: 100%;
     height: auto;
     color: #fff;
+    margin-bottom: 1%;
 }
