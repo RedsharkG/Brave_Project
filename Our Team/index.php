@@ -6,17 +6,20 @@
     <link rel="stylesheet" href="footercss/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link href="../Header/style.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body >
+<header>
+     <?php include '../Header/index.php'; ?> 
+</header>
 <div class="header">
     <div class="btopic">
         <p class="topic">our team</p>
-<!--        <p class="topic2"></p>-->
+        <!--        <p class="topic2"></p>-->
     </div>
-            <img src="Images/logo.png" class="logo">
+    <img src="Images/logo.png" class="logo">
 
 </div>
 
@@ -26,7 +29,7 @@
 <table class="container">
     <tr class="row1">
         <td>   shehara <br>gishan<br>
-            <img src="Images/user.jpg" class="profile"></td>
+            <img src="Images/shehara.JPG" class="profile"></td>
         <td>udaya <br>sandaruwan<br>
             <img src="Images/user.jpg" class="profile"></td>
         <td>    thenuri <br>gamage<br>
@@ -36,13 +39,13 @@
 
     <tr class="row2">
         <td>    lasan <br>sanjula<br>
-            <img src="Images/user.jpg" class="profile">
+            <img src="Images/lasan.jpg" class="profile">
         </td>
         <td>    yuhas <br>himsanda<br>
-            <img src="Images/user.jpg" class="profile">
+            <img src="Images/yuhas.jpg" class="profile">
         </td>
         <td>    thirani <br>ihara<br>
-            <img src="Images/user.jpg" class="profile">
+            <img src="Images/thirani.jpg" class="profile">
         </td>
     </tr>
 
@@ -51,7 +54,7 @@
             <img src="Images/user.jpg" class="profile"></td>
 
         <td>piyumaka<br>wijeyaratne<br>
-            <img src="Images/user.jpg" class="profile">
+            <img src="Images/piyumaka.jpg" class="profile">
         </td>
         <td>yohani<br>hansika<br>
             <img src="Images/user.jpg" class="profile">
@@ -61,7 +64,7 @@
     <tr class="row4">
 
         <td colspan="3">nuran <br>hirusha<br>
-            <img src="Images/user.jpg" class="profile">
+            <img src="Images/nuran.jpg" class="profile">
 
         </td>
     </tr>
