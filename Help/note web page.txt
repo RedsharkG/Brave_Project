@@ -1,0 +1,49 @@
+Brave Project Style Guide
+Help page - Thirani
+
+Font-family - Nudista ( Font is located in the Github Brave project —> Nudista )
+Main Background colour Gradient -  css code for linear gradient background —> background: linear-gradient(90deg, #140040 13.46%, #000 89.19%); 
+Ask help search box css styles -  border-radius: 100px;   background: #D9D9D9;
+Submit and login button styles -  fill: #BA3902; text cooler is #fff;
+
+
+
+
+
+
+
+FREQUENTLY ASKED QUESTIONS
+How can I contact your store?
+You can contact s using our contact us page and if you face 
+any kind of error please put a complain.
+
+How can I return my T-shirt that I have already payed?
+Don't Worry! You dont have to pay for returning products. 
+We'll thake care of that. Use our Reyurn Products Page and 
+please prefer size chart before ordering.
+
+How many days wil it takes to delivery my orders?
+If you order in weekends your order will ship on Monday and
+It will take 3-5 working days to deliver your order.
+(* 10 delivery in Colombo).
+
+Can I cancel my order?
+Actually you can cancel your any kind of order before 24H. 
+If you want to cancel your order use our My Orders Page.
+
+How can I know your newly arrivals?
+
+If you are interested about our store, you can subscribe our 
+news and updates to be inform about latest arrivals.
+
+
+
+
+FREQUENTLY ASKED QUESTIONS
+How can I contact your store?
+How can I return my T-shirt that I have already payed?
+How many days will it takes to delivery my orders?
+Can I cancel my order?
+How can I know your newly arrivals?
+
+
