@@ -9,8 +9,14 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
     <link href="css/style.css/style.css" rel="stylesheet" type="text/css">
+      <link href="../Header/style.css" rel="stylesheet" />
   </head>
   <body>
+  <header>
+
+  <?php include '../Header/index.php' ?>
+
+  </header>
 <div class="container-fluid">
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light"> <a class="navbar-brand" href="#"><img src="images/Logo with Name.png" alt="" width="100" height="100" class="img-fluid"/>&nbsp;</a>
