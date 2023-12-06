@@ -1,4 +1,4 @@
-udaya
+
 body{
     background: linear-gradient(90deg, #140040 13.46%, #000 89.19%);
     
@@ -12,24 +12,29 @@ img{
 input{
     font-family: nudista;
     width: 380px;
-    font-size: 6;
+    font-size: 30px;
     border-radius: 100px;
     background: #D9D9D9;
     text-align: center;
+    height: 35px;
+
 }
 h1{
     font-family: Nudista;
     color: white;
     text-align: center;
+    font-size: 80px;
+
 }
 h5{
     font-family: nudista;
     color: white;
+    font-size: 80px;
 }
 .accordion {
     background: linear-gradient(90deg, #140040 13.46%, #000 89.19%);
     margin-bottom: 16px;
-    font-size: 50px;
+    font-size: 80px;
   }
 
   .accordion-item {
@@ -66,6 +71,11 @@ h5{
  }
 table{
     color: white;
+    font-size: 80px;
+    
+}
+.search-input{
+  width: 470px;
 
 }
 
@@ -83,20 +93,23 @@ img{
 }
 input{
     font-family: nudista;
-    width: 380px;
-    font-size: 6;
+    width: 100px;
+    font-size: 10px;
     border-radius: 100px;
     background: #D9D9D9;
     text-align: center;
+    height: 20px;
 }
 h1{
     font-family: Nudista;
     color: white;
     text-align: center;
+    font-size:30px;
 }
 h5{
     font-family: nudista;
     color: white;
+    font-size:30px;
 }
 .accordion {
     background: linear-gradient(90deg, #140040 13.46%, #000 89.19%);
@@ -138,6 +151,12 @@ h5{
  }
 table{
     color: white;
+    font-size: 30px;
+
+}
+.search-input{
+  width:200px;
+  height: 25px;
 
 }
     
@@ -156,20 +175,23 @@ table{
     }
     input{
         font-family: nudista;
-        width: 380px;
-        font-size: 15;
+        width: 150px;
+        font-size: 20px;
         border-radius: 100px;
         background: #D9D9D9;
         text-align: center;
+        height: 25px;
     }
     h1{
         font-family: Nudista;
         color: white;
         text-align: center;
+        font-size: 50px;
     }
     h5{
         font-family: nudista;
         color: white;
+        font-size: 50px;
     }
     .accordion {
         background: linear-gradient(90deg, #140040 13.46%, #000 89.19%);
@@ -211,4 +233,11 @@ table{
      }
     table{
         color: white;
+        font-size: 50px;
+}
+.search-input{
+  width: 325px;
+  height: 35px;
+
+}
 }
