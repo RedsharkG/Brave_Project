@@ -20,6 +20,7 @@
 </header>
 
 <article>
+    <div class="background-containers">
 <img src="Images/Screenshot%202023-10-13%20at%2017.03.46.png" alt = "main-banner" class="main-banner"/>
 
 
@@ -52,7 +53,7 @@
 
     </div>
 
-
+    </div>
 
 </article>
 

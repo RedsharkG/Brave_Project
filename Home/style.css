@@ -23,6 +23,11 @@ header {
     background-color: rgba(000,000,000, 0.5);
     height: 150px;
 }
+
+.background-containers {
+    /*background: rgba(000, 000, 000, 0.6);*/
+    /*background-size: inherit;*/
+}
 /*.search {*/
 /*    width: 15%;*/
 /*    height: auto;*/
@@ -108,6 +113,8 @@ header {
 
 .first-sec {
     margin-bottom: 2%;
+    background: rgba(000, 000, 000, 0.6);
+
 }
 
 .winter {
