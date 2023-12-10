@@ -18,7 +18,7 @@ footer {
     background-color: #000;
 }
 
-.first-Col {
+.footer-first-Col {
     color: #fff;
     margin-left:2%;
     margin-top:2%;
@@ -45,14 +45,14 @@ a:hover {
     color: orangered;
 }
 
-.sec-Col {
+.footer-sec-Col {
     color: #fff;
     margin-left: 10%;
     display:inline-block;
     line-height: 1cm;
 }
 
-.branch-info {
+.footer-branch-info {
     display: inline-block;
     width: 20%;
     color: #fff;
@@ -67,12 +67,12 @@ a:hover {
 
 /* Social media icons */
 
-.social-icons{
+.footer-social-icons{
     padding:30px;
     background-color:#000;
     text-align: center;
 }
-.social-icons a{
+.footer-social-icons a{
     color:#fff;
     line-height:30px;
     font-size:30px;
@@ -80,7 +80,7 @@ a:hover {
     text-decoration:none;
 
 }
-.social-icons a i{
+.footer-social-icons a i{
     line-height:30px;
     font-size:30px;
     -webkit-transition: all 200ms ease-in;
@@ -92,7 +92,7 @@ a:hover {
     transition: all 200ms ease-in;
     transform: scale(1);
 }
-.social-icons a:hover i{
+.footer-social-icons a:hover i{
     box-shadow: 0px 0px 150px #000000;
     z-index: 2;
     -webkit-transition: all 200ms ease-in;

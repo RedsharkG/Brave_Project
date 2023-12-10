@@ -12,7 +12,7 @@
 <footer>
 
 <!--    Above lines of codes for the first column in the footer -->
-    <div class = "first-Col">
+    <div class = "footer-first-Col">
 
         <p><a href="../Home/index.php" class="Home"> Home </a></p>
         <p> <a href="../Store/index.html" class="Store"> Store </a> </p>
@@ -23,7 +23,7 @@
 
     </div>
 
-    <div class = "sec-Col">
+    <div class = "footer-sec-Col">
 
         <p><a href="../Home/index.php" class="Sale"> Sale </a></p>
         <p> <a href="../Store/index.html" class="Help"> Help </a> </p>
@@ -34,7 +34,7 @@
 
     </div>
 
-    <div class = "branch-info">
+    <div class = "footer-branch-info">
 
         <p> Main Branch - Colombo </p>
         <a href = "#">brave.store@gmail.com </a>
@@ -46,7 +46,7 @@
 
 <!-- Social Media Icons -->
 
-    <div class="social-icons">
+    <div class="footer-social-icons">
         <a href="#"  title="facebook">
             <i class="fa fa-facebook-square fb" aria-hidden="true"></i>
         </a>

@@ -1,3 +1,93 @@
+/* Adding mostly use Font-family to the web page */
+@font-face {
+    font-family: mainFont;
+    src: url(../Nudista/nudista.otf);
+}
+
+@font-face {
+    font-family: mainFontBold;
+    src: url("../Nudista/nudista-bold.otf");
+}
+
+* {
+    font-family: mainFont;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: linear-gradient(105deg, #140040 34.33%, #000 82.64%);
 }
+
+.main-container {
+    display: grid;
+    grid-template-columns: 300px 300px 350px;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    justify-items: start;
+    column-gap: 60px;
+    row-gap: 30px;
+
+}
+
+.left-container {
+    grid-column: 1/2;
+}
+
+.right-container{
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.right-t {
+    column-gap: 80px;
+    width: 300px;
+    height: auto;
+    justify-self: end;
+}
+
+.main-header {
+    text-align: center;
+    width: 100%;
+    font-size: 2.4vw;
+    font-weight: bolder;
+    grid-column: 1 / span 3;
+    letter-spacing: 5px;
+    background-color: rgba(000, 000, 000, 0.5);
+    margin-bottom: 4%;
+
+}
+
+.left-container {
+    justify-self: center;
+    grid-column: 1 / span 2;
+
+}
+
+.sub-header {
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.left-list {
+    list-style-type: none;
+    font-size: 1.3vw;
+    line-height: 300%;
+}
+
+.large-title {
+    grid-column: 2 / 3 ;
+    grid-column: 1 / -1;
+    justify-items: center;
+    line-height: 70px;
+    margin-bottom: 50px;
+}
+
+.large-title-txt {
+    font-size: 2.4vw;
+    /*grid-column: 1 / span -1;*/
+    letter-spacing: 10px;
+    font-weight: bold;
+    color: orangered;
+}
+

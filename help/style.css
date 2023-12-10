@@ -1,7 +1,7 @@
 
 body{
     background: linear-gradient(90deg, #140040 13.46%, #000 89.19%);
-    
+
 }
 img{
     display: block;
@@ -9,7 +9,7 @@ img{
     margin-right: auto;
     width: 5px;
     height: 500px;
-    
+
 }
 input{
     font-family: nudista;
@@ -63,7 +63,7 @@ h5{
     right: 12px;
     transform: translateY(-50%);
   }
- 
+
  p{
     font-family: nudista;
     font-size: 50px;
@@ -72,7 +72,7 @@ h5{
 table{
     color: white;
     font-size: 35px;
-    
+
 }
 .search-input{
   width: 470px;
