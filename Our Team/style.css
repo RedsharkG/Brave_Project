@@ -20,8 +20,6 @@ body {
     background: linear-gradient(90deg, #140040 42.99%, #000 91.3%);
 }
 
-
-/*HEAD BORDER*/
 .logo{
     height: 30vh;
 }
@@ -47,16 +45,28 @@ body {
     align-self: center;
 }
 
-
-/*PARAGRAPH*/
 .p-tag2{
-    margin: 70px 30px;
+    margin: 20px 30px;
     text-align: center;
-    line-height: 18px;
-    /*position: absolute;*/
 }
+/*.p-tag{*/
+/*  display: grid;*/
+/*  grid-template-columns: 1fr 105px 1fr;*/
+/*  grid-template-rows: 100px;*/
+/*  margin: 10px 40px;*/
+/*  !*column-gap: 10px;*!*/
+/*  text-align: justify;*/
+/*  column-gap: 60px;*/
+/*}*/
+/*.p-1{*/
+/*  align-self: center;*/
+/*  justify-self: end;*/
+/*}*/
+/*.p-2{*/
+/*  align-self: center;*/
+/*  justify-self: end;*/
+/*}*/
 
-/*PICTURES*/
 .pic-container{
     /*max-width: 700px;*/
     text-align: center;
