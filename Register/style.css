@@ -15,79 +15,56 @@
     padding: 0;
 }
 
-body {
-    background: linear-gradient(105deg, #140040 34.33%, #000 82.64%);
+.container {
+    display:grid;
+    grid-template-columns: 16rem 1fr 16rem;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header header header"
+        "nav content sidebar"
+        "footer footer footer";
+    min-height: 100vh;
 }
 
-.main-container {
-    display: grid;
-    grid-template-columns: 300px 300px 350px;
-    grid-template-rows: 1fr;
-    justify-content: center;
-    justify-items: start;
-    column-gap: 60px;
-    row-gap: 30px;
-
+header {
+    grid-area: header;
+    padding: 2rem;
+    background-color: #0b2e13;
 }
 
-.left-container {
-    grid-column: 1/2;
+nav {
+    grid-area: nav;
+    padding: 2rem;
+    background-color: #0c5460;
 }
 
-.right-container{
-    grid-column: 3 / 4;
-    grid-row: 1 / 2;
+main {
+    grid-area: content;
+    padding: 2rem;
+    background-color: #0f6674;
 }
 
-.right-t {
-    column-gap: 80px;
-    width: 300px;
-    height: auto;
-    justify-self: end;
+aside {
+    grid-area: sidebar;
+    padding: 2rem;
+    background-color: #000000;
 }
 
-.main-header {
-    text-align: center;
-    width: 100%;
-    font-size: 2.4vw;
-    font-weight: bolder;
-    grid-column: 1 / span 3;
-    letter-spacing: 5px;
-    background-color: rgba(000, 000, 000, 0.5);
-    margin-bottom: 4%;
-
+footer {
+    grid-area: footer;
+    /*padding: 2rem;*/
+    /*background-color: #1c7430;*/
 }
 
-.left-container {
-    justify-self: center;
-    grid-column: 1 / span 2;
-
+@media (max-width: 1024px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto minmax(5rem, auto) 1fr minmax(5rem, auto) auto;
+        grid-template-areas:
+                "header"
+                "nav"
+                "content"
+                "sidebar"
+                "footer";
+    }
 }
-
-.sub-header {
-    font-size: 2vw;
-    font-weight: bold;
-}
-
-.left-list {
-    list-style-type: none;
-    font-size: 1.3vw;
-    line-height: 300%;
-}
-
-.large-title {
-    grid-column: 2 / 3 ;
-    grid-column: 1 / -1;
-    justify-items: center;
-    line-height: 70px;
-    margin-bottom: 50px;
-}
-
-.large-title-txt {
-    font-size: 2.4vw;
-    /*grid-column: 1 / span -1;*/
-    letter-spacing: 10px;
-    font-weight: bold;
-    color: orangered;
-}
-
