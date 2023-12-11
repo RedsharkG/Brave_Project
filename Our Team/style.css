@@ -11,7 +11,6 @@
 * {
     margin: 0;
     padding: 0;
-    text-transform: uppercase;
     font-family: mainFont;
     color: #fff;
 }
@@ -30,6 +29,8 @@ body {
     font-size: 7vw;
     font-weight: bolder;
     letter-spacing: 2vw;
+    text-transform: uppercase;
+
 
     display: grid;
     grid-template-columns: 1fr 200px 1fr;
@@ -50,6 +51,8 @@ body {
     margin: 4vw 3vw;
     text-align: center;
     font-size: 1.1vw;
+    text-transform: uppercase;
+    line-height: 1.3em;
 }
 /*.p-tag{*/
 /*  display: grid;*/
@@ -103,4 +106,6 @@ body {
 .el--19{
     align-self:end ;
     font-size: 1.3vw;
+    text-transform: uppercase;
+
 }
