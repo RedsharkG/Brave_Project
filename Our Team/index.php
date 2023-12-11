@@ -28,6 +28,14 @@
     <div class="head-el-02"><img class="logo" src="Images/logo.png" /></div>
     <div class="head-el-03">team</div>
 </div>
+<div>&nbsp;</div>
+
+<div class="p-tag2"><p>ALL THE MEMBERS OF OUR TEAM ARE UNDER-GRADUATES OF THE
+        NSBM GREEN UNIVERSITY AND WE HAVE CREaTED THIS WEBSITE FOR OUR WEB DEVELOPING
+        FINAL GROUP PROJECT. SPECIAL THANKS FOR OUR LECTURER AND THANKS FOR THE
+        ALL OF GROUP MEMBERS IN OUR GROUP. WE ARE PROVIDING YOU THE BEST QUALITY
+        T-SHIRT FROM OUR BRAVE STORE. <br> THANK YOU!</p>
+</div>
 
 <!--PICTURES-->
 <div class="pic-container">
@@ -79,12 +87,7 @@
     <div></div>
     <!--</div>-->
 </div>
-<div class="p-tag2"><p>ALL THE MEMBERS OF OUR TEAM ARE UNDER-GRADUATES OF THE
-        NSBM GREEN UNIVERSITY AND WE HAVE CREaTED THIS WEBSITE FOR OUR WEB DEVELOPING
-        FINAL GROUP PROJECT. SPECIAL THANKS FOR OUR LECTURER AND THANKS FOR THE
-        ALL OF GROUP MEMBERS IN OUR GROUP. WE ARE PROVIDING YOU THE BEST QUALITY
-        T-SHIRT FROM OUR BRAVE STORE. <br> THANK YOU!</p>
-</div>
+
 
 <footer>
     <?php include '../Footer/index.php'; ?>
