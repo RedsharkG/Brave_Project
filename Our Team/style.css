@@ -22,19 +22,20 @@ body {
 
 .logo{
     height: 30vh;
+    max-width: 100%;
 }
 
 .head-border {
     background: rgba(119, 119, 119, 0.17);
-    font-size: 100px;
+    font-size: 7vw;
     font-weight: bolder;
-    letter-spacing: 15px;
+    letter-spacing: 2vw;
 
     display: grid;
     grid-template-columns: 1fr 200px 1fr;
     grid-template-rows: 160px;
     justify-items: center;
-    column-gap: 30px;
+    column-gap: 3vw;
 }
 .head-el-01{
     justify-self: end;
@@ -46,8 +47,9 @@ body {
 }
 
 .p-tag2{
-    margin: 20px 30px;
+    margin: 4vw 3vw;
     text-align: center;
+    font-size: 1.1vw;
 }
 /*.p-tag{*/
 /*  display: grid;*/
@@ -78,7 +80,7 @@ body {
     justify-content: center;
     justify-items: center;
     align-items: center;
-    column-gap: 20px;
+    column-gap: 40px;
 
 
 }
@@ -100,4 +102,5 @@ body {
 .el--15,
 .el--19{
     align-self:end ;
+    font-size: 1.3vw;
 }
