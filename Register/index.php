@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="style.css" rel="stylesheet" />
     <link href="../Footer/style.css" rel="stylesheet" />
+    <link href="../Header%20v2/style.css" rel="stylesheet"/>
     <title>Return items</title>
 </head>
 <body>
@@ -14,6 +15,7 @@
 <div class = "container">
 
     <header>
+    <?php include '../Header v2/index.php'; ?>
     </header>
 
     <nav>
