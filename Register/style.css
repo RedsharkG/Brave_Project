@@ -28,8 +28,8 @@
 
 header {
     grid-area: header;
-    padding: 2rem;
-    background-color: #0b2e13;
+    /*padding: 2rem;*/
+    /*background-color: #0b2e13;*/
 }
 
 nav {
