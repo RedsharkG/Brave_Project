@@ -33,39 +33,55 @@
     <img src="images/watermark.png" class="water-mark">
 </div>
 
-<div class="form-box">
-    <form name="Form"  action="" method="post">
+<div >
+    <center>
+    <form name="forgetpswd-form" action="index.php" method="post" class="form-container">
 
-    <p class="el-01">Enter your E-mail/Mobile number:</p><br>
-    <input class="el-02" type="text" name="E-mail/Mobile number">
-    <button class="el-03" type="submit">Confirm</button>
+        <div class="el-01"><p >Enter your E-mail/Mobile number:</p></div>
 
-    <br><br>
+          <div class="el-02" > <input type="text" name="E-mail/Mobile number" class="t1">
+          </div>
 
-    <p class="el-04">Enter the 4 number verification code:</p><br>
-    <input class="el-05" type="number" name="v-code">
-    <button class="el-06" type="submit">Confirm</button><br>
+          <div class="el-03"> <input type="submit" value="Confirm" class="b1">
+        </div>
 
-    <br><br>
+        <div class="el-04">        <p >Enter the 4 number verification code:</p>
+        </div>
 
-    <p class="el-07">Verification code will be at your E-mail inbox or messages.</p>
-    <br><br><br>
+        <div class="el-05"><input  type="number" name="v-code" class="t2">
+        </div>
 
-    <p class="el-08">Enter a new password:</p><br>
-    <input class="el-10" type="password" name="E-mail/Mobile number">
+            <div class="el-06"> <input type="submit" value="Confirm" class="b2">
+        </div>
 
-    <br><br>
+        <div class="el-07">        <p >Verification code will be at your E-mail inbox or messages.</p>
+        </div>
 
-    <p class="el-09">Confirm password:</p><br>
-    <input class="el-10" type="password" name="E-mail/Mobile number"><br><br>
-    <button class="el-11" type="submit">Confirm</button>
-    <button class="el-12" type="submit">Confirm</button>
+        <div class="el-08">        <p >Enter a new password:</p>
+        </div>
+
+        <div class="el-09">        <input  type="password" name="E-mail/Mobile number" class="t3">
+        </div>
+
+        <div class="el-10">        <p >Confirm password:</p>
+        </div>
+
+        <div class="el-11">        <input  type="password" name="E-mail/Mobile number" class="t4">
+        </div>
+
+        <div class="el-12"> <input type="submit" value="Confirm" class="b3">
+            <input type="reset" value="Clear" class="b4">
+
+        </div>
+
+        <div></div>
+
+
 
     </form>
-
+    </center>
+  </div>
 </div>
-
-
 
 <footer>
     <?php include '../Footer/index.php'; ?>
