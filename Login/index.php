@@ -1,3 +1,7 @@
+<?php
+include 'login-conn.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +23,7 @@
 
         .login-container {
             background-color: #373750;
-            padding: 20px;
+            padding: 80px;
             border-radius: 30px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             width: 300px;
@@ -31,7 +35,7 @@
         }
 
         .form-group {
-            margin-bottom: 15px;
+            margin-bottom: 30px;
         }
 
         label {
@@ -105,7 +109,7 @@
 
 <div class="login-container">
     <h2>LOGIN</h2>
-    <form>
+    <form method="post">
         <div class="form-group">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>

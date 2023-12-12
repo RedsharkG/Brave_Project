@@ -9,17 +9,18 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="../Footer/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="../Header/style.css" rel="stylesheet"/>
+    <link href="../Header v2/style.css" rel="stylesheet"/>
     <title>Home</title>
 </head>
 <body>
 <header>
 
-    <?php include '../Header/index.php'; ?>
+    <?php include '../Header v2/index.php'; ?>
 
 </header>
 
 <article>
+    <div class="background-containers">
 <img src="Images/Screenshot%202023-10-13%20at%2017.03.46.png" alt = "main-banner" class="main-banner"/>
 
 
@@ -52,7 +53,7 @@
 
     </div>
 
-
+    </div>
 
 </article>
 

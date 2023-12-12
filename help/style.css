@@ -1,30 +1,37 @@
 
 body{
     background: linear-gradient(90deg, #140040 13.46%, #000 89.19%);
-    
+
 }
 img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+    width: 5px;
+    height: 500px;
+
 }
 input{
     font-family: nudista;
-    width: 380px;
-    font-size: 6;
+    width: 350px;
+    font-size: 25px;
     border-radius: 100px;
     background: #D9D9D9;
     text-align: center;
+    height: 35px;
+
 }
 h1{
     font-family: Nudista;
     color: white;
     text-align: center;
+    font-size: 70px;
+
 }
 h5{
     font-family: nudista;
     color: white;
+    font-size: 50px;
 }
 .accordion {
     background: linear-gradient(90deg, #140040 13.46%, #000 89.19%);
@@ -56,18 +63,44 @@ h5{
     right: 12px;
     transform: translateY(-50%);
   }
- h5{
-    font-family: nudista;
-    color: #D9D9D9;
- }
+
  p{
     font-family: nudista;
+    font-size: 50px;
 
  }
 table{
     color: white;
+    font-size: 35px;
 
 }
+.search-input{
+  width: 470px;
+
+}
+.sumbit_button{
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 200px;
+  height: 35px;
+  border-radius: 100px;
+  background-color: orangered;
+  font-size: 20px;
+}
+.para_color{
+  margin-top: 20px;
+  font-size: 30px;
+  color: orangered;
+}
+.login_button{
+  margin-left: 30px;
+  width: 200px;
+  height: 35px;
+  border-radius: 100px;
+  background-color: orangered;
+  font-size: 20px;
+}
+
 
 @media (max-width: 768px){
     
@@ -79,29 +112,37 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+    width: 10px;
+    height: 200px;
 }
 input{
     font-family: nudista;
-    width: 380px;
-    font-size: 6;
+    width: 200px;
+    font-size: 15px;
     border-radius: 100px;
     background: #D9D9D9;
     text-align: center;
+    height: 25px;
 }
 h1{
     font-family: Nudista;
     color: white;
     text-align: center;
+<<<<<<< Updated upstream
+    font-size:45px;
+=======
+    font-size:20px;
+>>>>>>> Stashed changes
 }
 h5{
     font-family: nudista;
     color: white;
+    font-size: 30px;
 }
 .accordion {
     background: linear-gradient(90deg, #140040 13.46%, #000 89.19%);
     margin-bottom: 16px;
-    font-size:30px;
+    font-size:  25px;
   }
 
   .accordion-item {
@@ -128,20 +169,46 @@ h5{
     right: 12px;
     transform: translateY(-50%);
   }
- h5{
-    font-family: nudista;
-    color: #D9D9D9;
- }
+ 
  p{
     font-family: nudista;
+    font-size: 25px;
 
  }
 table{
     color: white;
+    font-size: 25px;
 
 }
-    
+.search-input{
+  width: 280px;
+  height: 30px;
+
 }
+.sumbit_button{
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 120px;
+  height: 27px;
+  border-radius: 100px;
+  background-color: orangered;
+  font-size: 20px;
+}
+.para_color{
+  margin-top: 20px;
+  font-size: 20px;
+  color: orangered;
+}
+.login_button{
+  margin-left: 30px;
+  width: 120px;
+  height: 27px;
+  border-radius: 100px;
+  background-color: orangered;
+  font-size: 20px;
+}
+}
+
 
 @media (min-width: 769px) and (max-width: 992px){
     body{
@@ -152,29 +219,34 @@ table{
         display: block;
         margin-left: auto;
         margin-right: auto;
+        width: 20px;
+        height: 300px;
         
     }
     input{
         font-family: nudista;
-        width: 380px;
-        font-size: 15;
+        width: 250px;
+        font-size: 20px;
         border-radius: 100px;
         background: #D9D9D9;
         text-align: center;
+        height: 26px;
     }
     h1{
         font-family: Nudista;
         color: white;
         text-align: center;
+        font-size: 50px;
     }
     h5{
         font-family: nudista;
         color: white;
+        font-size: 40px;
     }
     .accordion {
         background: linear-gradient(90deg, #140040 13.46%, #000 89.19%);
         margin-bottom: 16px;
-        font-size: 50px;
+        font-size: 35px;
       }
     
       .accordion-item {
@@ -201,14 +273,42 @@ table{
         right: 12px;
         transform: translateY(-50%);
       }
-     h5{
-        font-family: nudista;
-        color: #D9D9D9;
-     }
+    
      p{
         font-family: nudista;
+        font-size: 35px;
     
      }
     table{
         color: white;
+        font-size: 30px;
 }
+.search-input{
+  width: 350px;
+  height: 35px;
+
+}
+.sumbit_button{
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 200px;
+  height: 35px;
+  border-radius: 100px;
+  background-color: orangered;
+  font-size: 25px;
+}
+.para_color{
+  margin-top: 20px;
+  font-size: 30px;
+  color: orangered;
+}
+.login_button{
+  margin-left: 30px;
+  width: 200px;
+  height: 35px;
+  border-radius: 100px;
+  background-color: orangered;
+  font-size: 25px;
+}
+}
+

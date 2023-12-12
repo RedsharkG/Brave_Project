@@ -1,139 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>OUR TEAM</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="footercss/style.css" />
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <link href="../Header/style.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../Footer/style.css" />
 
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>Our Team</title>
 </head>
-<body >
-<header>
-     <?php include '../Header/index.php'; ?> 
-</header>
-<div class="header">
-    <div class="btopic">
-        <p class="topic">our team</p>
-        <!--        <p class="topic2"></p>-->
-    </div>
-    <img src="Images/logo.png" class="logo">
 
+<body>
+<header>    <?php include '../Header/index.php'; ?>
+</header>
+<div class="head-border">
+    <div class="head-el-01">our</div>
+    <div class="head-el-02"><img class="logo" src="Images/logo.png" /></div>
+    <div class="head-el-03">team</div>
+</div>
+<div>&nbsp;</div>
+
+<div class="p-tag2"><p>ALL THE MEMBERS OF OUR TEAM ARE UNDER-GRADUATES OF THE
+        NSBM GREEN UNIVERSITY AND WE HAVE CREaTED THIS WEBSITE FOR OUR WEB DEVELOPING
+        FINAL GROUP PROJECT. SPECIAL THANKS FOR OUR LECTURER AND THANKS FOR THE
+        ALL OF GROUP MEMBERS IN OUR GROUP. WE ARE PROVIDING YOU THE BEST QUALITY
+        T-SHIRT FROM OUR BRAVE STORE. <br> THANK YOU!</p>
 </div>
 
-<p>ALL OF THE MEMBERS OF OUR TEAM ARE UNDER                 GRADUATES OF THE NSBM GREEN UNIVERSITY AND WE HAVE CRETED THIS WEB SI              TE FOR OUR WEB DEVELOPING FINAL GROUP PROJECT. SPECIAL THANKS FOR THE OUR LECTURER         AND THANKS FOR THE ALL OF THE GROUP MEMBERS IN OUR GROUP. WE ARE PROVIDING YOU THE BEST QUALITY T-SHIRT FROM OUR BRAVE STORE. THANK YOU!
-</p>
+<!--PICTURES-->
+<div class="pic-container">
+    <!--  <div class="first-row-names">-->
+    <div class="el--1">sehara<br> gishan</div>
+    <div class="el--2">udaya<br> sandaruwan</div>
+    <div class="el--3">thenuri <br>gamage</div>
+    <!--  </div>-->
 
-<table class="container">
-    <tr class="row1">
-        <td>   shehara <br>gishan<br>
-            <img src="Images/shehara.JPG" class="profile"></td>
-        <td>udaya <br>sandaruwan<br>
-            <img src="Images/user.jpg" class="profile"></td>
-        <td>    thenuri <br>gamage<br>
-            <img src="Images/user.jpg" class="profile">
-        </td>
-    </tr>
+    <!--<div class="first-row-imgs"-->
+    <div class="el--4"><img class="profile" src="Images/shehara.jpg"></div>
+    <div class="el--5"><img class="profile" src="Images/udaya.jpg"></div>
+    <div class="el--6"><img class="profile" src="Images/thenuri.jpg"></div>
+    <!--    </div>-->
 
-    <tr class="row2">
-        <td>    lasan <br>sanjula<br>
-            <img src="Images/lasan.jpg" class="profile">
-        </td>
-        <td>    yuhas <br>himsanda<br>
-            <img src="Images/yuhas.jpg" class="profile">
-        </td>
-        <td>    thirani <br>ihara<br>
-            <img src="Images/thirani.jpg" class="profile">
-        </td>
-    </tr>
+    <!--    <div class="sec-row-names">-->
+    <div class="el--7">lasan<br> sanjula</div>
+    <div class="el--8">yuhas <br>himsanda</div>
+    <div class="el--9">thirani <br>ihara</div>
+    <!--      </div>-->
 
-    <tr class="row3">
-        <td>danithe <br>subasinghe<br>
-            <img src="Images/user.jpg" class="profile"></td>
+    <!--    <div class="sec-row-imgs">-->
+    <div class="el--10"><img class="profile" src="Images/lasan.jpg"></div>
+    <div class="el--11"><img class="profile" src="Images/yuhas.jpg"></div>
+    <div class="el--12"><img class="profile" src="Images/thirani.jpg"></div>
+    <!--      </div>-->
 
-        <td>piyumaka<br>wijeyaratne<br>
-            <img src="Images/piyumaka.jpg" class="profile">
-        </td>
-        <td>yohani<br>hansika<br>
-            <img src="Images/user.jpg" class="profile">
-        </td>
-    </tr>
+    <!--    <div class="third-row-names">-->
+    <div class="el--13">piyumaka <br>wijeyaratne</div>
+    <div class="el--14">dhanithe<br> subasinghe</div>
+    <div class="el--15">yohani <br>hansika</div>
+    <!--    </div>-->
 
-    <tr class="row4">
+    <!--    <div class="third-row-imgs">-->
+    <div class="el--16"><img class="profile" src="Images/piyumaka.jpg"></div>
+    <div class="el--17"><img class="profile" src="Images/danith.jpg"></div>
+    <div class="el--18"><img class="profile" src="Images/yohani"></div>
+    <!--    </div>-->
 
-        <td colspan="3">nuran <br>hirusha<br>
-            <img src="Images/nuran.jpg" class="profile">
+    <!--    <div class="last-row-name">-->
+    <div></div>
+    <div class="el--19">nuran <br>hirusha</div>
+    <div></div>
+    <!--    </div>-->
 
-        </td>
-    </tr>
+    <!--<div class="last-row-img">-->
+    <div></div>
+    <div class="el--20"><img class="profile" src="Images/nuran.jpg"></div>
+    <div></div>
+    <!--</div>-->
+</div>
 
-
-
-</table>
-
-
-
-</body>
 
 <footer>
-
-    <!--    Above lines of codes for the first column in the footer -->
-    <div class = "first-Col">
-
-        <p><a href="../Home/index.html" class="Home"> Home </a></p>
-        <p> <a href="../Store/index.html" class="Store"> Store </a> </p>
-        <p><a href="../Contact Us/index.html" class="Contact-Us"> Contact Us </a></p>
-        <p> <a href="../Login/index.html" class="Login"> Login</a> </p>
-        <p> <a href="../Register/index.html" class="Register"> Register </a></p>
-        <p> <a href="../Returns and Exchanges/index.html" class="RAE"> Returns and Exchanges </a></p>
-
-    </div>
-
-    <div class = "sec-Col">
-
-        <p><a href="../Home/index.html" class="Sale"> Sale </a></p>
-        <p> <a href="../Store/index.html" class="Help"> Help </a> </p>
-        <p><a href="../Our Team/index.html" class="Our Team"> Our Team </a></p>
-        <p> <a href="../Login/index.html" class="Branches"> Branches </a> </p>
-        <p> <a href="../Register/index.html" class="Profile"> Profile </a></p>
-        <p> <a href="../Returns and Exchanges/index.html" class="Size-chart"> Size Chart </a></p>
-
-    </div>
-
-    <div class = "branch-info">
-
-        <p> Main Branch - Colombo </p>
-        <a href = "#">brave.store@gmail.com </a>
-        <p></p>
-        <p> Contact No - +94 7710203034 </p>
-        <p> whatsapp - +94 7710203034 </p>
-        <p> Open at Working Days 8.00am - 9.00pm</p>
-    </div>
-
-    <!-- Social Media Icons -->
-
-    <div class="social-icons">
-        <a href="#"  title="facebook">
-            <i class="fa fa-facebook-square fb" aria-hidden="true"></i>
-        </a>
-        <a href="#" title="twitter">
-            <i class="fa fa-twitter-square tweet" aria-hidden="true"></i>
-        </a>
-
-        <a href="#" title="instagram">
-
-            <i class="fa fa-instagram instagram" aria-hidden="true"></i>
-        </a>
-        <a href="#" title="youtube">
-            <i class="fa fa-youtube-square youtube" aria-hidden="true"></i>
-        </a>
-
-    </div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.575840369662!2d80.03899797604667!3d6.821329093176444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2523b05555555%3A0x546c34cd99f6f488!2sNSBM%20Green%20University!5e0!3m2!1sen!2slk!4v1694520905116!5m2!1sen!2slk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade" class = "location"></iframe>
-    <hr class = "left-line" />
-    <p class = "copyright"> Copyrights &copy; Group 40</p>
+    <?php include '../Footer/index.php'; ?>
 </footer>
+
+</body>
 </html>
