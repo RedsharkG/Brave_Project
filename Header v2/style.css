@@ -137,13 +137,16 @@
         display: block;
         text-align: left;
     }
+
     .header-right {
         float: none;
 
     }
+
     .search-n {
-    width: 8%;
-    background-color: #FFBB02;
-    color: black;
-    margin-right: 1%;
+        width: 8%;
+        background-color: #FFBB02;
+        color: black;
+        margin-right: 1%;
     }
+}
