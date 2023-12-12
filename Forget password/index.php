@@ -30,7 +30,7 @@
 </div>
 
 <div>
-    <img src="images/watermark.png" class="water-mark">
+
 </div>
 
 <div >

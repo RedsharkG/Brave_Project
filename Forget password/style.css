@@ -17,7 +17,6 @@
 body{
     background: linear-gradient(105deg, #140040 34.33%, #000 82.64%);
 
-    position: relative;
 }
 
 .topic{
@@ -32,18 +31,18 @@ body{
 
 }
 
-.water-mark{
-    width: 250px;
-    height: 350px;
-    display: block;
-    margin: auto;
-    opacity: 0.2;
-    position: absolute;
-    left: 41vw ;
-    top: 20vw;
+/*.water-mark{*/
+/*    width: 250px;*/
+/*    height: 350px;*/
+/*    display: block;*/
+/*    margin: auto;*/
+/*    opacity: 0.2;*/
+/*    position: absolute;*/
+/*    left: 41vw ;*/
+/*    top: 20vw;*/
 
 
-}
+/*}*/
 .ptag{
     color: #FFBB02;
 }
@@ -51,7 +50,7 @@ body{
 .t2,
 .t3,
 .t4{
-    border: 0;
+    border: 1px;
     background: #D9D9D9;
     border-radius: 90px;
     height: 4vh;
@@ -74,7 +73,9 @@ button{
     cursor: pointer;
 }
 button:hover{
-    color:#EB5A1C;
+    background-color:#EB5A1C;
+    color:#fff;
+    border: 1px solid #fff;
 
 }
 
