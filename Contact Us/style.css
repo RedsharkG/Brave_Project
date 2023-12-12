@@ -87,7 +87,8 @@ tr .table-5 input {
     border-radius: 100px;
     width: 100px;
     height: 35px;
-	color: #FFFFFF
+	color: #FFFFFF;
+  background-color: #000;
   
 }
 tr td input {
@@ -99,7 +100,8 @@ tr td .table-7 {
     border-radius: 25%;
     width: 100px;
     height: 35px;
-	color: #fff
+	color: white;
+  background-color: #000;
 }
 tr .table-5 input:link {
     background:#BA3902;
