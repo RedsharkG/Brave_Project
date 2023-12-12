@@ -83,7 +83,7 @@
             <input type="password" name="E-mail/Mobile number" class="t4">
         </div>
 
-        
+
         <div class="el-12">
             <button type="submit" class="b3">Clear</button>
             <button type="reset" class="b4">Confirm</button>
