@@ -73,19 +73,22 @@ tr td .table-6 {
 }
 tr td input {
     border-radius: 100px;
+    height: 30px;
 	
 }
 tr td .table-6 {
     border-radius: 100px;
 	width: 300px;
-	height: 80px;
+	height: 100px;
 }
 tr td .img-fluid {
 }
 tr .table-5 input {
     border-radius: 100px;
     width: 100px;
+    height: 35px;
 	color: #FFFFFF
+  
 }
 tr td input {
     width: 200px;
@@ -95,6 +98,7 @@ td .table-3 br {
 tr td .table-7 {
     border-radius: 25%;
     width: 100px;
+    height: 35px;
 	color: #fff
 }
 tr .table-5 input:link {
