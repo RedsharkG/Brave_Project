@@ -24,7 +24,7 @@
 
         <a class="Home"  href = "../Home/index.php"> Home </a>
         <a class = "Help" href="../Help/help.php"> Help </a>
-        <a class = "Contact" href="../About%20us/index.php"> About Us </a>
+        <a class = "Contact" href="../About%20us/index.php"> About </a>
         <a class="Login" href="../Login/index.php"> Login </a>
 
         <div class="dropdown">
