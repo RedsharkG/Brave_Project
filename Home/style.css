@@ -21,7 +21,7 @@ body {
 
 header {
     background-color: rgba(000,000,000, 0.5);
-    height: 150px;
+    /*height: 150px;*/
 }
 
 .background-containers {
@@ -113,7 +113,6 @@ header {
 
 .first-sec {
     margin-bottom: 2%;
-    background: rgba(000, 000, 000, 0.6);
 
 }
 

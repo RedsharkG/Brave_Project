@@ -15,84 +15,65 @@
     padding: 0;
 }
 
-body {
-    background: linear-gradient(90deg, #140040 42.99%, #000 91.3%);
+/* Style the header with a grey background and some padding */
+.header {
+    overflow: visible;
+    background-color: rgba(000, 000, 000,  1);
+    padding: 20px 10px;
 }
 
-.header-container {
-    background-color: rgba(000, 000, 000, 1);
-    display: flex;
-    justify-content: center;
-    /*gap: 2%;*/
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.header-image {
-    width: 6%;
-    height: auto;
-}
-
-.anchor {
-    margin-right: 20px;
-    /*background-color: #9fcdff;*/
-    color:#fff;
-    padding: 16px;
-    font-size: 1.09em;
-    border: 2px solid #d39e00;
-    border-radius: 50px;
+/* Style the header links */
+.header a {
+    float: left ;
+    color: #fff;
     text-align: center;
-
-}
-
-.anchor:first-child {
-    margin-left: 40px;
-}
-
-
-.anchor:visited {
-    margin-right: 10px;
+    padding: 12px;
     text-decoration: none;
-    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 50px;
+    margin-right: 1%;
 }
 
-.anchor:link {
-    text-decoration: none;
-    color: #fff;
-}
-
-.anchor:hover {
-    color: #000;
+.search-n:link {
+    width: 18%;
     background-color: #FFBB02;
-    border: none;
-    /*font-weight: bold;*/
+    color: black;
+    margin-right: 5%;
 }
 
-.anchor:active {
-    color: #fff;
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.logo {
+    width: 11% ;
+    /*font-size: 25px;*/
+    font-weight: bold;
+    margin-left: 22.4%;
+    padding-bottom: 1%;
 }
 
-.search-box {
-    width: 100%;
-    font-size: 1.09em;
-    padding: 0.5em;
-    border-radius: 50px;
-    text-align: center;
-    justify-self: center;
-    margin-right: 40px;
-    /*position: absolute;*/
+/* Change the background color on mouse-over */
+.header a:hover {
+    background-color: #FFBB02;
+    color: black;
 }
 
-/*.search-button {*/
-/*    width: 2px;*/
-/*    height: auto;*/
-/*    background-color: #000;*/
-/*}*/
+.header a:first-child:hover {
+    background-color: #d39e00;
+}
 
+/* Style the active/current link*/
+.header a.active {
+    background-color: #FFBB02;
+    color: #000;
+}
 
-
+/* Float the link section to the right */
+.header-right {
+    /*float: right;*/
+    margin-left: 36%;
+    margin-top: -8%;
+    margin-bottom: 2%;
+}
 
 
 /* Dropdown Button */
@@ -115,10 +96,10 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
+    background-color: rgba(777, 777, 777, 1);
+    min-width: 179%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 1000;
 }
 
 /* Links inside the dropdown */
@@ -130,13 +111,42 @@ body {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+    background-color: #ddd;
+    visibility: visible;
+}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: #ffdf7e;
     color: orangered;
+}
+
+
+
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 800px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .header-right {
+        float: none;
+
+    }
+
+    .search-n {
+        width: 8%;
+        background-color: #FFBB02;
+        color: black;
+        margin-right: 1%;
+    }
 }
