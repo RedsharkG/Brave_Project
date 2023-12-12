@@ -10,36 +10,25 @@
 </head>
 <body>
 
-<div class="header-nav">
-<div class="logo">
-    <img src="../Logo%20with%20Name.png" alt="Logo with name" class="header-logo"/>
-</div>
-
-    <div class = "header-links">
-    <a href="../Home/index.php" class="anchor"> Home </a>
-    <a href="../About us/index.php" class="anchor"> About us </a>
-    <a href="../Contact%20Us/index.php" class="anchor"> Contact  </a>
-    <a href="../Help/index.php" class="anchor"> Help </a>
-    </div>
-
-    <div class="dropdown">
-        <button class="dropbtn"> Services </button>
-        <div class="dropdown-content">
-            <a href="#">Login</a>
-            <a href="#">Register</a>
-            <a href="#">Size Chart</a>
+<div class="header">
+    <img src="../Logo%20with%20Name.png" class="logo">
+    <div class="header-right">
+        <a href="#" class="search-n">Search..</a>
+        <a class="active" href="#home">Home</a>
+        <a href="../Contact%20Us">Contact</a>
+        <a href="../About%20us">About us</a>
+        <a href="../Help/index.php"> Help </a>
+        <div class="dropdown">
+            <button class="dropbtn"> Services </button>
+            <div class="dropdown-content">
+                <a href="../Login/index.php">Login</a>
+                <a href="../Register">Register</a>
+                <a href="../Size%20Chart/index.php">Size Chart</a>
+            </div>
         </div>
     </div>
-
-    <div class = "search">
-
-        <input type="text" placeholder="Search" name="search" />
-        <button class = "right-arrow"> &rarr; </button>
-
-    </div>
-
-
 </div>
+
 
 </body>
 </html>
