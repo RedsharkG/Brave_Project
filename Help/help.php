@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" tpe="text/css" href="style.css">
         <link href = "../Footer/style.css" rel = "stylesheet"/>
-
+<title>Help</title>
 
     </head>
     <body>
