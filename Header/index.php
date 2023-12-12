@@ -17,19 +17,28 @@
 <div class = "container">
 
     <img src="../Logo%20with%20Name.png" alt="logo with name" class="logo-img"/>
-<div class="search-div">
-    <form method = "post">
-        <input type = "text" placeholder="Search" name="search" class="search-box" />
-    </form>
-</div>
+<!--<div class="search-div">-->
+<!--        <a href="#" class="search-box"> Search.. </a>-->
+<!--</div>-->
     <div class="nav-titles" >
 
-        <a class="Home" href = "#"> Home </a>
-        <a class = "Store" href="#"> Store </a>
-        <a class = "Contact" href="#"> Contact Us </a>
-        <a class="Login" href="#"> Login </a>
+        <a class="Home"  href = "../Home/index.php"> Home </a>
+        <a class = "Help" href="../Help/help.php"> Help </a>
+        <a class = "Contact" href="../About%20us/index.php"> About Us </a>
+        <a class="Login" href="../Login/index.php"> Login </a>
+
+        <div class="dropdown">
+            <button class="dropbtn"> Services </button>
+            <div class="dropdown-content">
+                <a href="../Login/index.php">Login</a>
+                <a href="../Register">Register</a>
+                <a href="../Size%20Chart/index.php">Size Chart</a>
+            </div>
+        </div>
 
     </div>
+
+
 </div>
 </body>
 </html>

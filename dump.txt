@@ -195,3 +195,145 @@ body {
     background-color: #ffdf7e;
     color: orangered;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Adding mostly use Font-family to the web page */
+@font-face {
+    font-family: mainFont;
+    src: url("../Nudista/nudista.otf");
+}
+
+@font-face {
+    font-family: mainFontBold;
+    src: url("../Nudista/nudista-bold.otf");
+}
+
+* {
+    font-family: mainFont;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+/*body {*/
+/*    background: linear-gradient(105deg, #140040 42.99%, #000 91.3%);*/
+
+/*}*/
+
+.container {
+    background-color: rgba(000,000,000, 1);
+    display: flex;
+    justify-content: center;
+    flex-basis: auto;
+    align-self: center;
+    gap: 66px;
+}
+
+a:link {
+    text-decoration: none;
+    color:#fff;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: orangered;
+    /*font-weight: bold;*/
+}
+
+a:active {
+    color: #fff;
+    /*font-weight: bold;*/
+}
+
+.nav-titles {
+    display: flex;
+    align-self: center;
+    font-size:1.3vw;
+    gap: 35px;
+}
+
+.logo-img {
+    width: 8%;
+    height: auto;
+
+}
+
+.search-div {
+    display: flex;
+    align-self: center;
+
+}
+
+.search-box {
+/*    width: 170%;*/
+/*    height: 20%;*/
+    padding:6px;
+    border-radius:20px;
+    /*border: 0;*/
+    font-size: 1.3vw;
+    text-align: center;
+
+}
+
+
+
+<?php
+
+?>
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Header</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class = "container">
+
+    <img src="../Logo%20with%20Name.png" alt="logo with name" class="logo-img"/>
+<div class="search-div">
+    <form method = "post">
+        <input type = "text" placeholder="Search" name="search" class="search-box" />
+    </form>
+</div>
+    <div class="nav-titles" >
+
+        <a class="Home" href = "#"> Home </a>
+        <a class = "Store" href="#"> Store </a>
+        <a class = "Contact" href="#"> Contact Us </a>
+        <a class="Login" href="#"> Login </a>
+
+    </div>
+</div>
+</body>
+</html>
