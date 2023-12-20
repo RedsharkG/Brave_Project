@@ -56,75 +56,46 @@
     forget password
 </div>
 
-<div>
-
-</div>
-
 <div >
-    <center>
-    <form name="forgetpswd-form" action="index.php" method="post" class="form-container">
 
-        <div class="el-01">
-            <p>Enter your E-mail/Mobile number :</p>
+    <form action = "index.html" method = "post">
+
+        <div class = "form-container">
+
+            <div class = "email-phone">
+                <p> Enter your E-mail/Mobile number : </p>
+                <input type = "text" name="email-phone">
+                <button type="submit" class="sub-button">Confirm</button>
         </div>
 
-
-          <div class="el-02">
-              <input type="text" name="E-mail/Mobile number" class="t1">
-          </div>
-          <div class="el-03">
-              <button type="submit" class="b1">Confirm</button>
+        <div class = "vr-code">
+            <p class = "vc"> Enter the 4 number verification code :</p>
+            <input type = "number" name="v-code">
+            <button type="submit" class="sub-button">Confirm</button>
         </div>
 
-
-        <div class="el-04">
-            <p >Enter the 4 number verification code :</p>
+        <div class="vc-msg" >
+            <p class="v-msg">Verification code will be at your E-mail inbox or messages.</p>
         </div>
 
-
-        <div class="el-05">
-            <input type="number" name="v-code" class="t2">
-        </div>
-            <div class="el-06">
-                <button type="submit" class="b2">Confirm</button>
-            </div>
-
-
-        <div class="el-07">
-            <p class="ptag">Verification code will be at your E-mail inbox or messages.</p>
+        <div class = "en-pwd">
+            <p>Enter a new password : </p>
+            <input type = "password" name = "enter-pwd" >
         </div>
 
-
-        <div class="el-08">
-            <p >Enter a new password :</p>
-        </div>
-        <div class="el-09">
-            <input type="password" name="E-mail/Mobile number" class="t3">
-        </div>
-
-
-        <div class="el-10">
+        <div class = "cnfm-pwd">
             <p>Confirm password :</p>
-        </div>
-        <div class="el-11">
-            <input type="password" name="E-mail/Mobile number" class="t4">
+            <input type = "password" name = "-confirm-pwd" >
         </div>
 
-
-        <div class="el-12">
-            <button type="submit" class="b3">Clear</button>
-            <button type="reset" class="b4">Confirm</button>
-
+        <div class="last">
+            <button type="submit" class="sub-button">Clear</button>
+            <button type="reset" class="sub-button">Confirm</button>
         </div>
-
-        <div></div>
-
-
 
     </form>
-    </center>
   </div>
-</div>
+
 
 <footer>
     <!--    Above lines of codes for the first column in the footer -->
