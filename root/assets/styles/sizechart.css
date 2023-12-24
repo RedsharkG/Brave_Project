@@ -1,3 +1,14 @@
+/* Adding mostly use Font-family to the web page */
+@font-face {
+    font-family: mainFont;
+    src: url(../fonts/Nudista/nudista.otf);
+}
+
+@font-face {
+    font-family: mainFontBold;
+    src: url("../fonts/Nudista/nudista-bold.otf");
+}
+
 @charset "utf-8";
 body {
     background: linear-gradient(105deg, #140040 42.99%, #000 91.3%);

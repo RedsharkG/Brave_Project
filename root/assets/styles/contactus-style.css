@@ -1,12 +1,23 @@
-@charset "UTF-8";
+/* Adding mostly use Font-family to the web page */
+@font-face {
+    font-family: mainFont;
+    src: url(../fonts/Nudista/nudista.otf);
+}
+
+@font-face {
+    font-family: mainFontBold;
+    src: url("../fonts/Nudista/nudista-bold.otf");
+}
+
+/*@charset "UTF-8";*/
 tbody tr .table-1 {
 text-align: center;
-font-family:"JetBrains Mono";
+/*font-family:"JetBrains Mono";*/
 font-size: 96px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-letter-spacing: 78.24px;
+/*letter-spacing: 78.24px;*/
 	background: linear-gradient(174deg, #FFBB02 7.93%, #BA3902 10.73%);
 background-clip: text;
 -webkit-background-clip: text;
@@ -14,7 +25,7 @@ background-clip: text;
 }
 tbody tr .table-2 {
 text-align: center;
-font-family:"JetBrains Mono";
+/*font-family:"JetBrains Mono";*/
 font-size: 96px;
 font-style: normal;
 font-weight: 400;
@@ -27,7 +38,7 @@ background-clip: text;
 }
 tr td .table-3 {
 	color: #fff;
-font-family:"JetBrains Mono";
+/*font-family:"JetBrains Mono";*/
 font-size: 40px;
 font-style: normal;
 font-weight: 400;
