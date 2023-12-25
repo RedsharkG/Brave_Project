@@ -1,196 +1,200 @@
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="../assets/styles/help-style.css" />
-        <link rel="stylesheet" href="../assets/styles/footer-style.css" />
-        <link href="../assets/styles/header-style.css" rel="stylesheet"/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/styles/help-style.css" />
+    <link rel="stylesheet" href="../assets/styles/footer-style.css" />
+    <link href="../assets/styles/header-style.css" rel="stylesheet"/>
 
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-    </head>
+    <title>Help</title>
+</head>
+<body>
+<header>
 
-    <body>
-    <header>
+    <div class = "container">
 
-        <div class = "container">
+        <img src="../assets/images/logos/Logo%20with%20Name.png" alt="logo with name" class="logo-img"/>
+        <!--<div class="search-div">-->
+        <!--        <a href="#" class="search-box"> Search.. </a>-->
+        <!--</div>-->
+        <div class="nav-titles" >
 
-            <img src="../assets/images/logos/Logo%20with%20Name.png" alt="logo with name" class="logo-img"/>
-            <!--<div class="search-div">-->
-            <!--        <a href="#" class="search-box"> Search.. </a>-->
-            <!--</div>-->
-            <div class="nav-titles" >
+            <a class="Home"  href = "../pages/Home.html"> Home </a>
+            <a class = "Help" href="../pages/Help.html"> Help </a>
+            <a class = "Contact" href="../pages/AboutUs.html"> About </a>
+            <a class="Login" href="../pages/Login.html"> Login </a>
 
-                <a class="Home"  href = "../pages/Home.html"> Home </a>
-                <a class = "Help" href="../pages/Help.html"> Help </a>
-                <a class = "Contact" href="../pages/AboutUs.html"> About </a>
-                <a class="Login" href="../pages/Login.html"> Login </a>
-
-                <div class="dropdown">
-                    <button class="dropbtn"> Services </button>
-                    <div class="dropdown-content">
-                        <a href="../pages/Login.html">Login</a>
-                        <a href="../pages/Register.html">Register</a>
-                        <a href="../pages/SizeChart.html">Size Chart</a>
-                    </div>
+            <div class="dropdown">
+                <button class="dropbtn"> Services </button>
+                <div class="dropdown-content">
+                    <a href="../pages/Login.html">Login</a>
+                    <a href="../pages/Register.html">Register</a>
+                    <a href="../pages/SizeChart.html">Size Chart</a>
                 </div>
             </div>
         </div>
-    </header>
-        <img src="Logo only.png" alt="Centered Image" style="width: 50%;" >
-        <h1>How can we Help?</h1>
-        <center><input type="text" class="search-input" placeholder="ASK HELP FOR YOUR PROBLEM"></center><br><br>
-        <br>
+    </div>
+</header>
 
-        <h5>FREQUENTLY  QUESTIONS</h5>
-        <div class="accordion">
-            <div class="accordion-item">
-              <div class="accordion-header" onclick="toggleAccordion('contact')">
-                &#10132; How can I contact your store?
-                
-              </div>
-              <div class="accordion-content" id="contact">
-                <p>You can contact us using our <a href="#">contact us page</a>, and if you face any kind of error, please submit a complaint.</p>
-              </div>
+<div class="topic-border">
+    <div class="el-1"> <img src="../assets/images/logos/Logo%20only.png"></div>
+    <div class="el-2">how can we help you?</div>
+    <div class="el-3"> <input type="text" placeholder="Ask help for your problems" class="search-bar">
+        <button type="submit" class="s-button"><i class="fa fa-search"></i></button>
+    </div>
+</div>
+
+<div class="q-container">
+    <div class="h5">frequently asked questions</div>
+    <ul class="accordion">
+        <li>
+            <label for="first"> <span class="arrow">▶</span>  &nbsp;How can I contact your store?</label>
+            <input type="radio" name="accordion" id="first">
+            <div class="pcontent">
+                <p class="p">
+                    You can contact s using our contact us page and if you face
+                    any kind of error please put a complain.
+                </p>
             </div>
-          
-            <div class="accordion-item">
-              <div class="accordion-header" onclick="toggleAccordion('return')">
-                &#10132;How can I return my T-shirt that I have already paid?
-                
-              </div>
-              <div class="accordion-content" id="return">
-                <p>Don't worry! You don't have to pay for returning products. We'll take care of that. Use our <a href="#">Return Products Page</a> and please refer to the size chart before ordering.</p>
-              </div>
+        </li>
+        <li>
+            <label for="second"> <span class="arrow">▶</span>
+                &nbsp;How can I return my T-shirt that I have already pay?</label>
+            <input type="radio" name="accordion" id="second">
+            <div class="pcontent">
+                <p class="p">
+                    Don't Worry! You don't have to pay for returning products.
+                    We'll take care of that. Use our Return Products Page and
+                    please prefer size chart before ordering.
+                </p>
             </div>
-          
-            <div class="accordion-item">
-              <div class="accordion-header" onclick="toggleAccordion('delivery')">
-                &#10132;How many days will it take to deliver my orders?
-            
-              </div>
-              <div class="accordion-content" id="delivery">
-                <p>If you order on weekends, your order will ship on Monday, and it will take 3-5 working days to deliver your order. (* 10-day delivery in Colombo).</p>
-              </div>
+        </li>
+        <li>
+            <label for="third"> <span class="arrow">▶</span>  &nbsp;How many days wil it takes to delivery my orders?
+            </label>
+            <input type="radio" name="accordion" id="third">
+            <div class="pcontent">
+                <p class="p">
+                    If you order in weekends your order will ship on Monday and
+                    It will take 3-5 working days to deliver your order.
+                    (* 10 delivery in Colombo).
+                </p>
             </div>
-          
-            <div class="accordion-item">
-              <div class="accordion-header" onclick="toggleAccordion('cancel')">
-                &#10132;Can I cancel my order?
-                
-              </div>
-              <div class="accordion-content" id="cancel">
-                <p>You can cancel any kind of order before 24 hours. If you want to cancel your order, use our <a href="#">My Orders Page</a>.</p>
-              </div>
+        </li>
+        <li>
+            <label for="fourth"> <span class="arrow">▶</span>  &nbsp;Can I cancel my order?
+            </label>
+            <input type="radio" name="accordion" id="fourth">
+            <div class="pcontent">
+                <p class="p">
+                    Actually you can cancel your any kind of order before 24H.
+                    If you want to cancel your order use our My Orders Page.
+                </p>
             </div>
-          
-            <div class="accordion-item">
-              <div class="accordion-header" onclick="toggleAccordion('new-arrivals')">
-                &#10132;How can I know your newly arrivals?
-              
-              </div>
-              <div class="accordion-content" id="new-arrivals">
-                <p>If you are interested in our store, you can subscribe to our news and updates to be informed about the latest arrivals.</p>
-              </div>
+        </li>
+        <li>
+            <label for="fifth"> <span class="arrow">▶</span>  &nbsp;How can I know your newly arrivals?</label>
+            <input type="radio" name="accordion" id="fifth">
+            <div class="pcontent">
+                <p class="p">
+                    If you are interested about our store, you can subscribe our
+                    news and updates to be inform about latest arrivals.
+                </p>
             </div>
-          </div>
-          
-          <script>
-            function toggleAccordion(id) {
-              var content = document.getElementById(id);
-              var button = document.querySelector('#' + id + ' + .accordion-button');
-              if (content.style.display === "block") {
-                content.style.display = "none";
-                button.textContent = "▼";
-              } else {
-                content.style.display = "block";
-                button.textContent = "▲";
-              }
-            }
-          </script>
+        </li>
+    </ul>
+</div>
+<div class="askq-container">
+    <div class="h5">ask questions</div>
+    <label class="l">Name </label>
+    <input type="text" name="name" class="fillers">
+    <br>
+    <label class="l">E-mail </label>
+    <input type="text" name="name" class="fillers">
+    <br>
+    <label class="l">Question</label>
+    <input type="text" name="name" class="q-filler">
+    <br>
+    <button class="botn">Submit</button>
 
-          <h5>ASK QUESTIONS</h5>
+    <div class="imp">
+        *Login before ask questions
+        <a href="../pages/Login.html" class="lbotn" role="button">Login</a>
+    </div>
+</div>
 
-          <table>
-            <tr>
-             <td>Name</td>
-             <td><input type="text" name="nme" ></td>
-             </tr>
-             <tr>
-                <td>Email</td>
-               <td> <input type="email" name="emal" ></td>
-            </tr>
-            <tr>
-                <td>Question</td>
-                <td><input type="question" name="quest"></td>
-            </tr>
-            <tr>
-                <td><button type="submit" class="sumbit_button">Submit</button></td>
-                </tr>
-                <tr>
-                  <td class="para_color">Login before ask question </td>
-                  <td><button type="submit" class="login_button">Login</button></td>
-            </tr>
-          </table>
-    <footer>
-        <!--    Above lines of codes for the first column in the footer -->
-        <div class = "footer-first-Col">
 
-            <p><a href="../pages/Home.html" class="Home"> Home </a></p>
-            <p> <a href="../pages/" class="Store"> Store </a> </p>
-            <p><a href="../pages/ContactUs.html" class="Contact-Us"> Contact Us </a></p>
-            <p> <a href="../pages/Login.html" class="Login"> Login</a> </p>
-            <p> <a href="../pages/Register.html" class="Register"> Register </a></p>
-            <p> <a href="../pages/ReturnItems.html" class="RAE"> Returns and Exchanges </a></p>
 
-        </div>
+<footer>
+    <!--    Above lines of codes for the first column in the footer -->
+    <div class = "footer-first-Col">
 
-        <div class = "footer-sec-Col">
+        <p><a href="../pages/Home.html" class="Home"> Home </a></p>
+        <p> <a href="../pages/" class="Store"> Store </a> </p>
+        <p><a href="../pages/ContactUs.html" class="Contact-Us"> Contact Us </a></p>
+        <p> <a href="../pages/Login.html" class="Login"> Login</a> </p>
+        <p> <a href="../pages/Register.html" class="Register"> Register </a></p>
+        <p> <a href="../pages/ReturnItems.html" class="RAE"> Returns and Exchanges </a></p>
 
-            <p><a href="../pages/" class="Sale"> Sale </a></p>
-            <p> <a href="../pages/Help.html" class="Help"> Help </a> </p>
-            <p><a href="../pages/AboutUs.html" class="Our Team"> Our Team </a></p>
-            <p> <a href="../pages/" class="Branches"> Branches </a> </p>
-            <p> <a href="../pages/" class="Profile"> Profile </a></p>
-            <p> <a href="../pages/SizeChart.html" class="Size-chart"> Size Chart </a></p>
+    </div>
 
-        </div>
+    <div class = "footer-sec-Col">
 
-        <div class = "footer-branch-info">
+        <p><a href="../pages/" class="Sale"> Sale </a></p>
+        <p> <a href="../pages/Help.html" class="Help"> Help </a> </p>
+        <p><a href="../pages/AboutUs.html" class="Our Team"> Our Team </a></p>
+        <p> <a href="../pages/" class="Branches"> Branches </a> </p>
+        <p> <a href="../pages/" class="Profile"> Profile </a></p>
+        <p> <a href="../pages/SizeChart.html" class="Size-chart"> Size Chart </a></p>
 
-            <p> Main Branch - Colombo </p>
-            <a href = "#">brave.store@gmail.com </a>
-            <p></p>
-            <p> Contact No - +94 7710203034 </p>
-            <p> whatsapp - +94 7710203034 </p>
-            <p> Open at Working Days 8.00am - 9.00pm</p>
-        </div>
+    </div>
 
-        <!-- Social Media Icons -->
+    <div class = "footer-branch-info">
 
-        <div class="footer-social-icons">
-            <a href="#"  title="facebook">
-                <i class="fa fa-facebook-square fb" aria-hidden="true"></i>
-            </a>
-            <a href="#" title="twitter">
-                <i class="fa fa-twitter-square tweet" aria-hidden="true"></i>
-            </a>
+        <p> Main Branch - Colombo </p>
+        <a href = "#">brave.store@gmail.com </a>
+        <p></p>
+        <p> Contact No - +94 7710203034 </p>
+        <p> whatsapp - +94 7710203034 </p>
+        <p> Open at Working Days 8.00am - 9.00pm</p>
+    </div>
 
-            <a href="#" title="instagram">
+    <!-- Social Media Icons -->
 
-                <i class="fa fa-instagram instagram" aria-hidden="true"></i>
-            </a>
-            <a href="#" title="youtube">
-                <i class="fa fa-youtube-square youtube" aria-hidden="true"></i>
-            </a>
+    <div class="footer-social-icons">
+        <a href="#"  title="facebook">
+            <i class="fa fa-facebook-square fb" aria-hidden="true"></i>
+        </a>
+        <a href="#" title="twitter">
+            <i class="fa fa-twitter-square tweet" aria-hidden="true"></i>
+        </a>
 
-        </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.575840369662!2d80.03899797604667!3d6.821329093176444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2523b05555555%3A0x546c34cd99f6f488!2sNSBM%20Green%20University!5e0!3m2!1sen!2slk!4v1694520905116!5m2!1sen!2slk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade" class = "location"></iframe>
-        <hr class = "left-line" />
-        <p class = "copyright"> Copyrights &copy; Group 40</p>
-    </footer>
+        <a href="#" title="instagram">
 
-            
-    </body>
+            <i class="fa fa-instagram instagram" aria-hidden="true"></i>
+        </a>
+        <a href="#" title="youtube">
+            <i class="fa fa-youtube-square youtube" aria-hidden="true"></i>
+        </a>
+
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.575840369662!2d80.03899797604667!3d6.821329093176444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2523b05555555%3A0x546c34cd99f6f488!2sNSBM%20Green%20University!5e0!3m2!1sen!2slk!4v1694520905116!5m2!1sen!2slk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" class = "location"></iframe>
+    <hr class = "left-line" />
+    <p class = "copyright"> Copyrights &copy; Group 40</p>
+</footer>
+
+
+</body>
 </html>
