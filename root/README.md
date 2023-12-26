@@ -1,38 +1,27 @@
-# Brave_Project
-This website is for WEB FINAL ASSIGNMENT in NSBM GREEN UNIVERSITY.  We are developing a website that sells T-shirts. 
 
-# Pages
+# Brave Project
 
-Landing page
-Home Page
-Store
-Contact Us
-Login
-Register
-Sale
-Help
-Our Team
-Branches
-Forget Password
-# Our Group Members - Group No 40
-
-NAME              NSBM ID
-
-ksgsamarasinghe - 26041
-paudaya - 
-adlsanjula - 
+This is the last and finalise version of our web group project of the NSBM GREEN UNIVERSITY and this is a idea of a T-shirt brand e-commerce website. This project is done by 10 group members under the leadership of Sehara Gishan. 
 
 
-# Landing Page :)
 
-Colour Gradient: Linear gradient
-Main Black Colour: #000
-Main Gold Colour: #FFBB02
-Main Blue Colour: #140040
-font-family: JetBrains Mono
 
-// Logo that used in the Landing Page is in Brave Project folder and named 'Logo only'.
-// All the web-pages should be responsive.
+## Authors
 
-# Home Page :)
+- [@RedsharkG](https://github.com/RedsharkG)    -   Leader ( HomePage| LandingPage| Header | Footer | FigmaDesign )
+
+- [@thenugamage](https://github.com/thenugamage)   - AboutUs | ErrorFixing Whole Site | Adding Header and Footer 
+
+- [@Paudaya](https://github.com/Paudaya)   - ContactUs
+
+- [@gyhmadarasingha](https://github.com/gyhmadarasingha)    - Register
+
+- [@Thiraniihara](https://github.com/Thiraniihara)      -   Help
+
+- [@nhnhirusha](https://github.com/nhnhirusha) - SizeChart
+
+- [@Lasan Sanjula](https://github.com/lasan2003) - Login
+
+
+
 
